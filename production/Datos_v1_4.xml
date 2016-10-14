@@ -425,7 +425,7 @@
             <value>¿Cuándo recogió los datos?</value>
           </text>
           <text id="/data/plantData/timeCollected:hint">
-            <value>No hay que llenar esto si acabó de recoger los datos.</value>
+            <value></value>
           </text>
           <text id="/data/plantData/dateCollected:label">
             <value></value>
@@ -434,22 +434,22 @@
             <value></value>
           </text>
           <text id="/data/plantData/flowRate:label">
-            <value>Caudal</value>
+            <value>Caudal (L/s)</value>
           </text>
           <text id="/data/plantData/flowRate:hint">
-            <value>Flow Rate (Litres por segundo L/s)</value>
+            <value></value>
           </text>
           <text id="/data/plantData/coagulantDose:label">
             <value>Dosis de coagulantes (mg/L)</value>
           </text>
           <text id="/data/plantData/coagulantDose:hint">
-            <value>Coagulant Dose</value>
+            <value></value>
           </text>
           <text id="/data/plantData/coagulantDose:error">
             <value>El valor de DOSIS DE COAGULANTES que ha entrado cae fuera del rango esperado (0.0-50.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR SÍ para guardarlo y seguir.</value>
           </text>
           <text id="/data/plantData/CDCPos:label">
-            <value>Posición del deslizador de coagulante en la regla de la balanza</value>
+            <value>Posición del deslizador de coagulante en la balanza</value>
           </text>
           <text id="/data/plantData/CDCPos:hint">
             <value>(valor de 0-100 indicado en la ventanita del deslizador)</value>
@@ -458,16 +458,16 @@
             <value>Turbiedad de agua cruda (NTU)</value>
           </text>
           <text id="/data/plantData/rawWaterTurbidity:hint">
-            <value>Raw Water Turbidity</value>
+            <value></value>
           </text>
           <text id="/data/plantData/rawWaterTurbidity:warning">
-            <value>Si hay marcas, asegúrese de alinear la cubeta de turbiedad</value>
+            <value></value>
           </text>
           <text id="/data/plantData/settledWaterTurbidity:label">
             <value>Turbiedad de agua decantada (NTU)</value>
           </text>
           <text id="/data/plantData/settledWaterTurbidity:hint">
-            <value>Settled Water Turbidity</value>
+            <value></value>
           </text>
           <text id="/data/plantData/settledWaterTurbidity:error">
             <value>El valor de TURBIEDAD DE AGUA DECANTADA que ha entrado cae fuera del rango esperado (0.0-20.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR SÍ para guardarlo y seguir.</value>
@@ -476,7 +476,7 @@
             <value>Turbiedad de agua filtrada (NTU)</value>
           </text>
           <text id="/data/plantData/filteredWaterTurbidity:hint">
-            <value>Filtered Water Turbidity</value>
+            <value></value>
           </text>
           <text id="/data/plantData/filteredWaterTurbidity:error">
             <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR SÍ para guardarlo y seguir.</value>
@@ -485,7 +485,7 @@
             <value>Dosis de cloro (mg/L)</value>
           </text>
           <text id="/data/plantData/chlorineDose:hint">
-            <value>Chlorine Dose</value>
+            <value></value>
           </text>
           <text id="/data/plantData/entranceWaterLevel:label">
             <value>Nivel de agua en la caja de entrada al filtro (cm)</value>
@@ -590,13 +590,13 @@
             <value>Queremos saber cuándo terminó el retrolavado.</value>
           </text>
           <text id="/data/backwash/backwashDuration:label">
-            <value>Cuánto tiempo duró el retrolavado?</value>
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
           </text>
           <text id="/data/backwash/backwashDuration1:label">
-            <value>Cuánto tiempo duró el retrolavado del filtro 1?</value>
+            <value>Cuánto tiempo duró el retrolavado del filtro 1? (min)</value>
           </text>
           <text id="/data/backwash/backwashDuration2:label">
-            <value>Cuánto tiempo duró el retrolavado de filtro 2?</value>
+            <value>Cuánto tiempo duró el retrolavado de filtro 2? (min)</value>
           </text>
           <text id="/data/backwash/backwashDuration:hint">
             <value></value>
