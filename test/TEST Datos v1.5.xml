@@ -36,11 +36,11 @@
             <!--WIDGETS-->
             <widgets xmlns="widgets">
               <rawWaterTurbidity/>
+              <settledWaterTurbidity/>
+              <filteredWaterTurbidity/>
             </widgets>
             <!--WIDGETS-->
 
-            <settledWaterTurbidity/>
-            <filteredWaterTurbidity/>
             <chlorineDose/>
             <entranceWaterLevel/>
           </plantData>
@@ -334,16 +334,20 @@
           <text id="/data/plantData/widgets/rawWaterTurbidity:hint">
             <value>Please make sure external BT Turbidimeter app is installed</value>
           </text>
-          <text id="/data/plantData/settledWaterTurbidity:label">
+          <text id="/data/plantData/widgets/settledWaterTurbidity:label">
             <value>Settled Water Turbidity (NTU)</value>
+            <value form="buttonText">Get Settled Water Turbidity</value>
+            <value form="noAppErrorString">An External Java App is not Installed!</value>
           </text>
-          <text id="/data/plantData/settledWaterTurbidity:hint">
+          <text id="/data/plantData/widgets/settledWaterTurbidity:hint">
             <value></value>
           </text>
-          <text id="/data/plantData/filteredWaterTurbidity:label">
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:label">
             <value>Filtered Water Turbidity (NTU)</value>
+            <value form="buttonText">Get Filtered Water Turbidity</value>
+            <value form="noAppErrorString">An External Java App is not Installed!</value>
           </text>
-          <text id="/data/plantData/filteredWaterTurbidity:hint">
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:hint">
             <value></value>
           </text>
           <text id="/data/plantData/chlorineDose:label">
@@ -663,16 +667,16 @@
           <text id="/data/plantData/widgets/rawWaterTurbidity:hint">
             <value>Raw Water Turbidity</value>
           </text>
-          <text id="/data/plantData/settledWaterTurbidity:label">
+          <text id="/data/plantData/widgets/settledWaterTurbidity:label">
             <value>Turbiedad de agua decantada (NTU)</value>
           </text>
-          <text id="/data/plantData/settledWaterTurbidity:hint">
+          <text id="/data/plantData/widgets/settledWaterTurbidity:hint">
             <value>Settled Water Turbidity</value>
           </text>
-          <text id="/data/plantData/filteredWaterTurbidity:label">
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:label">
             <value>Turbiedad de agua filtrada (NTU)</value>
           </text>
-          <text id="/data/plantData/filteredWaterTurbidity:hint">
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:hint">
             <value>Filtered Water Turbidity</value>
           </text>
           <text id="/data/plantData/chlorineDose:label">
@@ -749,9 +753,9 @@
       <!--WIDGETS-->
       <bind nodeset="/data/plantData/widgets" relevant="(selected(/data/purpose, 'plantData'))"/>
       <bind nodeset="/data/plantData/widgets/rawWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/widgets/settledWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/widgets/filteredWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
       <!--WIDGETS-->
-      <bind nodeset="/data/plantData/settledWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
-      <bind nodeset="/data/plantData/filteredWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
       <bind nodeset="/data/plantData/chlorineDose" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
       <bind nodeset="/data/plantData/entranceWaterLevel" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
       <bind nodeset="/data/backwash" relevant="(selected(/data/purpose, 'backwash'))"/>
@@ -1054,13 +1058,15 @@
          <hint ref="jr:itext('/data/plantData/widgets/rawWaterTurbidity:hint')"/>
       </input>
       <!--WIDGETS -->
-      <input ref="/data/plantData/settledWaterTurbidity">
-        <label ref="jr:itext('/data/plantData/settledWaterTurbidity:label')"/>
-        <hint ref="jr:itext('/data/plantData/settledWaterTurbidity:hint')"/>
+      <input ref="/data/plantData/widgets/settledWaterTurbidity"
+        appearance="ex:org.post.aguaclara.post_bt_turbidimeter_widget.COLLECT()">
+        <label ref="jr:itext('/data/plantData/widgets/settledWaterTurbidity:label')"/>
+        <hint ref="jr:itext('/data/plantData/widgets/settledWaterTurbidity:hint')"/>
       </input>
-      <input ref="/data/plantData/filteredWaterTurbidity">
-        <label ref="jr:itext('/data/plantData/filteredWaterTurbidity:label')"/>
-        <hint ref="jr:itext('/data/plantData/filteredWaterTurbidity:hint')"/>
+      <input ref="/data/plantData/widgets/filteredWaterTurbidity"
+        appearance="ex:org.post.aguaclara.post_bt_turbidimeter_widget.COLLECT()">
+        <label ref="jr:itext('/data/plantData/widgets/filteredWaterTurbidity:label')"/>
+        <hint ref="jr:itext('/data/plantData/widgets/filteredWaterTurbidity:hint')"/>
       </input>
       <input ref="/data/plantData/chlorineDose">
         <label ref="jr:itext('/data/plantData/chlorineDose:label')"/>
