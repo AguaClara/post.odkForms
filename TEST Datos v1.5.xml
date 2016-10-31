@@ -1,0 +1,1114 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>TEST Datos v1.5</h:title>
+    <model>
+      <instance>
+        <data id="test_build_Datos-v1-5">
+          <meta>
+            <instanceID/>
+          </meta>
+          <deviceID/>
+          <timeStarted/>
+          <timeFinished/>
+          <location/>
+          <plant/>
+          <operatorID>
+            <OjojonaID/>
+            <TamaraID/>
+            <MarcalaID/>
+            <CuatroComunidadesID/>
+            <AgaltecaID/>
+            <AlaucaID/>
+            <AtimaID/>
+            <NicolasID/>
+            <MoroceliID/>
+            <OtoroID/>
+            <MatiasID/>
+          </operatorID>
+          <OtherID/>
+          <purpose/>
+          <plantData>
+            <timeCollected/>
+            <flowRate/>
+            <flowUnits/>
+            <coagulantDose/>
+          
+            <!--WIDGETS-->
+            <widgets xmlns="widgets">
+              <rawWaterTurbidity/>
+              <settledWaterTurbidity/>
+              <filteredWaterTurbidity/>
+            </widgets>
+            <!--WIDGETS-->
+
+            <chlorineDose/>
+            <entranceWaterLevel/>
+          </plantData>
+          <backwash>
+            <whichFilter/>
+            <backwashTime/>
+          </backwash>
+          <maintenanceDone>
+            <repairsDoneOther/>
+          </maintenanceDone>
+          <MaintenanceTODO>
+            <ToDoDescription/>
+          </MaintenanceTODO>
+          <comments/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/location:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/plant:label">
+            <value>Plant Name</value>
+          </text>
+          <text id="/data/plant:hint">
+            <value>Which plant are you working at?</value>
+          </text>
+          <text id="/data/plant:option0">
+            <value>Ojojona</value>
+          </text>
+          <text id="/data/plant:option1">
+            <value>Tamara</value>
+          </text>
+          <text id="/data/plant:option2">
+            <value>Marcala</value>
+          </text>
+          <text id="/data/plant:option3">
+            <value>Cuatro Comunidades</value>
+          </text>
+          <text id="/data/plant:option4">
+            <value>Agalteca</value>
+          </text>
+          <text id="/data/plant:option5">
+            <value>Alauca</value>
+          </text>
+          <text id="/data/plant:option6">
+            <value>Atima</value>
+          </text>
+          <text id="/data/plant:option7">
+            <value>Nicolas</value>
+          </text>
+          <text id="/data/plant:option8">
+            <value>Moroceli</value>
+          </text>
+          <text id="/data/plant:option9">
+            <value>Otoro</value>
+          </text>
+          <text id="/data/plant:option10">
+            <value>Matias</value>
+          </text>
+          <text id="/data/plant:option11">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID:label">
+            <value>Operator ID</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:option0">
+            <value>2898</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:option1">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:label">
+            <value>Please enter the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option0">
+            <value>8792</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option1">
+            <value>8152</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:option0">
+            <value>7433</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:option1">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:option0">
+            <value>0547</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:option1">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option0">
+            <value>5126</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option1">
+            <value>2385</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option2">
+            <value>1592</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option3">
+            <value>6597</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option0">
+            <value>2460</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option1">
+            <value>7068</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option2">
+            <value>9489</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:option0">
+            <value>9979</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:option1">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:option0">
+            <value>2021</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:option1">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option0">
+            <value>4497</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option1">
+            <value>5843</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option2">
+            <value>3064</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option0">
+            <value>0505</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option1">
+            <value>3891</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option2">
+            <value>Other</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:label">
+            <value>Please choose the last four digits of your phone number.</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:hint">
+            <value>This will allow us to track your responses anonymously.</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option0">
+            <value>1341</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option1">
+            <value>2655</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option2">
+            <value>0836</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option3">
+            <value>Other</value>
+          </text>
+          <text id="/data/OtherID:label">
+            <value>What are the last four digits of your phone number?</value>
+          </text>
+          <text id="/data/purpose:label">
+            <value>What do you want to do?</value>
+          </text>
+          <text id="/data/purpose:option0">
+            <value>Report plant data</value>
+          </text>
+          <text id="/data/purpose:option1">
+            <value>Report a backwash</value>
+          </text>
+          <text id="/data/purpose:option2">
+            <value>Report performed maintenance</value>
+          </text>
+          <text id="/data/purpose:option3">
+            <value>Report maintenance that needs to be done</value>
+          </text>
+          <text id="/data/purpose:option4">
+            <value>Other</value>
+          </text>
+          <text id="/data/plantData:label">
+            <value>Plant Data</value>
+          </text>
+          <text id="/data/plantData/timeCollected:label">
+            <value>When did you collect this data?</value>
+          </text>
+          <text id="/data/plantData/timeCollected:hint">
+            <value>You don't need to fill in this field if you just finished data collection.</value>
+          </text>
+          <text id="/data/plantData/flowRate:label">
+            <value>Flow Rate</value>
+          </text>
+          <text id="/data/plantData/flowRate:hint">
+            <value></value>
+          </text>
+          <text id="/data/plantData/flowUnits:label">
+            <value>What units do you measure flow rate in?</value>
+          </text>
+          <text id="/data/plantData/flowUnits:option0">
+            <value>Liters per second (L/s)</value>
+          </text>
+          <text id="/data/plantData/flowUnits:option1">
+            <value>Gallons per minute (Gal/min)</value>
+          </text>
+          <text id="/data/plantData/coagulantDose:label">
+            <value>Coagulant Dose (mg/L)</value>
+          </text>
+          <text id="/data/plantData/coagulantDose:hint">
+            <value></value>
+          </text>
+          <text id="/data/plantData/widgets/rawWaterTurbidity:label">
+            <value>Raw Water Turbidity (NTU)</value>
+            <value form="buttonText">Get Raw Turbidity</value>
+            <value form="noAppErrorString">An External Java App is not Installed!</value>
+          </text>
+          <text id="/data/plantData/sendIntent:label">
+            <value>Send Intent</value>
+          </text>
+          <text id="/data/plantData/widgets/rawWaterTurbidity:hint">
+            <value>Please make sure external BT Turbidimeter app is installed</value>
+          </text>
+          <text id="/data/plantData/widgets/settledWaterTurbidity:label">
+            <value>Settled Water Turbidity (NTU)</value>
+            <value form="buttonText">Get Settled Turbidity</value>
+            <value form="noAppErrorString">An External Java App is not Installed!</value>
+          </text>
+          <text id="/data/plantData/widgets/settledWaterTurbidity:hint">
+            <value></value>
+          </text>
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:label">
+            <value>Filtered Water Turbidity (NTU)</value>
+            <value form="buttonText">Get Filtered Turbidity</value>
+            <value form="noAppErrorString">An External Java App is not Installed!</value>
+          </text>
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:hint">
+            <value></value>
+          </text>
+          <text id="/data/plantData/chlorineDose:label">
+            <value>Chlorine Dose (mg/L)</value>
+          </text>
+          <text id="/data/plantData/chlorineDose:hint">
+            <value></value>
+          </text>
+          <text id="/data/plantData/entranceWaterLevel:label">
+            <value>Water level in the filter entrance box (cm)</value>
+          </text>
+          <text id="/data/backwash:label">
+            <value>Backwash</value>
+          </text>
+          <text id="/data/backwash/whichFilter:label">
+            <value>Which filter did you backwash?</value>
+          </text>
+          <text id="/data/backwash/whichFilter:option0">
+            <value>Filter 1</value>
+          </text>
+          <text id="/data/backwash/whichFilter:option1">
+            <value>Filter 2</value>
+          </text>
+          <text id="/data/backwash/backwashTime:label">
+            <value>When did you put the filter back online following the backwash?</value>
+          </text>
+          <text id="/data/backwash/backwashTime:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/data/maintenanceDone:label">
+            <value>Maintenance Done</value>
+          </text>
+          <text id="/data/maintenanceDone/repairsDoneOther:label">
+            <value>Tell us about the maintenance you did.</value>
+          </text>
+          <text id="/data/MaintenanceTODO:label">
+            <value>Maintenance To Do</value>
+          </text>
+          <text id="/data/MaintenanceTODO/ToDoDescription:label">
+            <value>What maintenance needs to be done?</value>
+          </text>
+          <text id="/data/comments:label">
+            <value>Comments (Optional)</value>
+          </text>
+          <text id="/data/comments:hint">
+            <value></value>
+          </text>
+        </translation>
+        <translation lang="spa">
+          <text id="/data/location:label">
+            <value>Ubicación</value>
+          </text>
+          <text id="/data/plant:label">
+            <value>Nombre de la planta</value>
+          </text>
+          <text id="/data/plant:hint">
+            <value>¿En cuál planta trabaja?</value>
+          </text>
+          <text id="/data/plant:option0">
+            <value>Ojojona</value>
+          </text>
+          <text id="/data/plant:option1">
+            <value>Tamara</value>
+          </text>
+          <text id="/data/plant:option2">
+            <value>Marcala</value>
+          </text>
+          <text id="/data/plant:option3">
+            <value>Cuatro Comunidades</value>
+          </text>
+          <text id="/data/plant:option4">
+            <value>Agalteca</value>
+          </text>
+          <text id="/data/plant:option5">
+            <value>Alauca</value>
+          </text>
+          <text id="/data/plant:option6">
+            <value>Atima</value>
+          </text>
+          <text id="/data/plant:option7">
+            <value>Nicolas</value>
+          </text>
+          <text id="/data/plant:option8">
+            <value>Moroceli</value>
+          </text>
+          <text id="/data/plant:option9">
+            <value>Otoro</value>
+          </text>
+          <text id="/data/plant:option10">
+            <value>Matias</value>
+          </text>
+          <text id="/data/plant:option11">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID:label">
+            <value>Identificación de operador</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:option0">
+            <value>2898</value>
+          </text>
+          <text id="/data/operatorID/OjojonaID:option1">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option0">
+            <value>8792</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option1">
+            <value>8152</value>
+          </text>
+          <text id="/data/operatorID/TamaraID:option2">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:option0">
+            <value>7433</value>
+          </text>
+          <text id="/data/operatorID/MarcalaID:option1">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:option0">
+            <value>0547</value>
+          </text>
+          <text id="/data/operatorID/CuatroComunidadesID:option1">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option0">
+            <value>5126</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option1">
+            <value>2385</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option2">
+            <value>1592</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option3">
+            <value>6597</value>
+          </text>
+          <text id="/data/operatorID/AgaltecaID:option4">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option0">
+            <value>2460</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option1">
+            <value>7068</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option2">
+            <value>9489</value>
+          </text>
+          <text id="/data/operatorID/AlaucaID:option3">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:option0">
+            <value>9979</value>
+          </text>
+          <text id="/data/operatorID/AtimaID:option1">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:option0">
+            <value>2021</value>
+          </text>
+          <text id="/data/operatorID/NicolasID:option1">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option0">
+            <value>4497</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option1">
+            <value>5843</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option2">
+            <value>3064</value>
+          </text>
+          <text id="/data/operatorID/MoroceliID:option3">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option0">
+            <value>0505</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option1">
+            <value>3891</value>
+          </text>
+          <text id="/data/operatorID/OtoroID:option2">
+            <value>Otra</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:label">
+            <value>Por favor escoja los últimos cuatro dígitos de su número de teléfono.</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:hint">
+            <value>Esto nos deja rastrear sus respuestas anóninamente.</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option0">
+            <value>1341</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option1">
+            <value>2655</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option2">
+            <value>0836</value>
+          </text>
+          <text id="/data/operatorID/MatiasID:option3">
+            <value>Otra</value>
+          </text>
+          <text id="/data/OtherID:label">
+            <value>¿Cuales son los últimos cuatro dígitos de su número de teléfono?</value>
+          </text>
+          <text id="/data/purpose:label">
+            <value>¿Qué quiere hacer?</value>
+          </text>
+          <text id="/data/purpose:option0">
+            <value>Reportar datos sobre la planta</value>
+          </text>
+          <text id="/data/purpose:option1">
+            <value>Reportar un retrolavado</value>
+          </text>
+          <text id="/data/purpose:option2">
+            <value>Reportar mantenimiento realizado</value>
+          </text>
+          <text id="/data/purpose:option3">
+            <value>Reportar mantenimiento que hay que hacer</value>
+          </text>
+          <text id="/data/purpose:option4">
+            <value>Otra</value>
+          </text>
+          <text id="/data/plantData:label">
+            <value>Datos sobre la planta</value>
+          </text>
+          <text id="/data/plantData/timeCollected:label">
+            <value>¿Cuándo recogió los datos?</value>
+          </text>
+          <text id="/data/plantData/timeCollected:hint">
+            <value>No hay que llenar esto si acabó de recoger los datos.</value>
+          </text>
+          <text id="/data/plantData/flowRate:label">
+            <value>Caudal</value>
+          </text>
+          <text id="/data/plantData/flowRate:hint">
+            <value>Flow Rate</value>
+          </text>
+          <text id="/data/plantData/flowUnits:label">
+            <value>¿Cuáles unidades usa para medir el caudal?</value>
+          </text>
+          <text id="/data/plantData/flowUnits:option0">
+            <value>Litres por segundo (L/s)</value>
+          </text>
+          <text id="/data/plantData/flowUnits:option1">
+            <value>Galones por minuto (Gal/min)</value>
+          </text>
+          <text id="/data/plantData/coagulantDose:label">
+            <value>Dosis de coagulantes (mg/L)</value>
+          </text>
+          <text id="/data/plantData/coagulantDose:hint">
+            <value>Coagulant Dose</value>
+          </text>
+          <text id="/data/plantData/widgets/rawWaterTurbidity:label">
+            <value>Turbiedad de agua cruda (NTU)</value>
+          </text>
+          <text id="/data/plantData/widgets/rawWaterTurbidity:hint">
+            <value>Raw Water Turbidity</value>
+          </text>
+          <text id="/data/plantData/widgets/settledWaterTurbidity:label">
+            <value>Turbiedad de agua decantada (NTU)</value>
+          </text>
+          <text id="/data/plantData/widgets/settledWaterTurbidity:hint">
+            <value>Settled Water Turbidity</value>
+          </text>
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:label">
+            <value>Turbiedad de agua filtrada (NTU)</value>
+          </text>
+          <text id="/data/plantData/widgets/filteredWaterTurbidity:hint">
+            <value>Filtered Water Turbidity</value>
+          </text>
+          <text id="/data/plantData/chlorineDose:label">
+            <value>Dosis de cloro (mg/L)</value>
+          </text>
+          <text id="/data/plantData/chlorineDose:hint">
+            <value>Chlorine Dose</value>
+          </text>
+          <text id="/data/plantData/entranceWaterLevel:label">
+            <value>Nivel de agua en la caja de entrada al filtro (cm)</value>
+          </text>
+          <text id="/data/backwash:label">
+            <value>Retrolavado</value>
+          </text>
+          <text id="/data/backwash/whichFilter:label">
+            <value>Con cuál filtro realizó el retrolavado?</value>
+          </text>
+          <text id="/data/backwash/whichFilter:option0">
+            <value>Filtro 1</value>
+          </text>
+          <text id="/data/backwash/whichFilter:option1">
+            <value>Filtro 2</value>
+          </text>
+          <text id="/data/backwash/backwashTime:label">
+            <value>Cuándo puso el filtro en línea después del retrolavado?</value>
+          </text>
+          <text id="/data/backwash/backwashTime:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/data/maintenanceDone:label">
+            <value>Mantenimientos Hechos</value>
+          </text>
+          <text id="/data/maintenanceDone/repairsDoneOther:label">
+            <value>Nos cuente del mantenimiento que hizo.</value>
+          </text>
+          <text id="/data/MaintenanceTODO:label">
+            <value>Mantenimientos Para Hacer</value>
+          </text>
+          <text id="/data/MaintenanceTODO/ToDoDescription:label">
+            <value>Qué mantenimiento hay que hacer?</value>
+          </text>
+          <text id="/data/comments:label">
+            <value>Comentarios (Opcional)</value>
+          </text>
+          <text id="/data/comments:hint">
+            <value></value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/deviceID" type="string" jr:preload="property" jr:preloadParams="deviceid"/>
+      <bind nodeset="/data/timeStarted" type="dateTime" jr:preload="timestamp" jr:preloadParams="start"/>
+      <bind nodeset="/data/timeFinished" type="dateTime" jr:preload="timestamp" jr:preloadParams="end"/>
+      <bind nodeset="/data/location" type="geopoint"/>
+      <bind nodeset="/data/plant" type="select1" required="true()"/>
+      <bind nodeset="/data/operatorID/OjojonaID" type="select1" relevant="(selected(/data/plant, 'Ojojona'))"/>
+      <bind nodeset="/data/operatorID/TamaraID" type="select1" relevant="(selected(/data/plant, 'Tamara'))"/>
+      <bind nodeset="/data/operatorID/MarcalaID" type="select1" relevant="(selected(/data/plant, 'Marcala'))"/>
+      <bind nodeset="/data/operatorID/CuatroComunidadesID" type="select1" relevant="(selected(/data/plant, 'CuatroComunidades'))"/>
+      <bind nodeset="/data/operatorID/AgaltecaID" type="select1" relevant="(selected(/data/plant, 'Agalteca'))"/>
+      <bind nodeset="/data/operatorID/AlaucaID" type="select1" relevant="(selected(/data/plant, 'Alauca'))"/>
+      <bind nodeset="/data/operatorID/AtimaID" type="select1" relevant="(selected(/data/plant, 'Atima'))"/>
+      <bind nodeset="/data/operatorID/NicolasID" type="select1" relevant="(selected(/data/plant, 'Nicolas'))"/>
+      <bind nodeset="/data/operatorID/MoroceliID" type="select1" relevant="(selected(/data/plant, 'Moroceli'))"/>
+      <bind nodeset="/data/operatorID/OtoroID" type="select1" relevant="(selected(/data/plant, 'Otoro'))"/>
+      <bind nodeset="/data/operatorID/MatiasID" type="select1" relevant="(selected(/data/plant, 'Matias'))"/>
+      <bind nodeset="/data/OtherID" type="string" relevant="(selected(/data/operatorID/OjojonaID, 'Other') or selected(/data/operatorID/TamaraID, 'Other') or selected(/data/operatorID/MarcalaID, 'Other') or selected(/data/operatorID/CuatroComunidadesID, 'Other') or selected(/data/operatorID/AgaltecaID, 'Other') or selected(/data/operatorID/AlaucaID, 'Other') or selected(/data/operatorID/AtimaID, 'Other') or selected(/data/operatorID/NicolasID, 'Other') or selected(/data/operatorID/MoroceliID, 'Other') or selected(/data/operatorID/OtoroID, 'Other') or selected(/data/operatorID/MatiasID, 'Other'))" constraint="(regex(., &quot;^.{4,4}$&quot;))" jr:constraintMsg="Response length must be between 4 and 4"/>
+      <bind nodeset="/data/purpose" type="select" required="true()"/>
+      <bind nodeset="/data/plantData" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/timeCollected" type="dateTime" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/flowRate" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/flowUnits" type="select1" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/coagulantDose" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <!--WIDGETS-->
+      <bind nodeset="/data/plantData/widgets" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/widgets/rawWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/widgets/settledWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/widgets/filteredWaterTurbidity" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <!--WIDGETS-->
+      <bind nodeset="/data/plantData/chlorineDose" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/plantData/entranceWaterLevel" type="decimal" relevant="(selected(/data/purpose, 'plantData'))"/>
+      <bind nodeset="/data/backwash" relevant="(selected(/data/purpose, 'backwash'))"/>
+      <bind nodeset="/data/backwash/whichFilter" type="select1" relevant="(selected(/data/purpose, 'backwash')) and (selected(/data/plant, 'Nicolas') or selected(/data/plant, 'Otoro'))"/>
+      <bind nodeset="/data/backwash/backwashTime" type="time" relevant="(selected(/data/purpose, 'backwash'))"/>
+      <bind nodeset="/data/maintenanceDone" relevant="(selected(/data/purpose, 'maintenanceDone'))"/>
+      <bind nodeset="/data/maintenanceDone/repairsDoneOther" type="string" relevant="(selected(/data/purpose, 'maintenanceDone'))"/>
+      <bind nodeset="/data/MaintenanceTODO" relevant="(selected(/data/purpose, 'maintenanceTODO'))"/>
+      <bind nodeset="/data/MaintenanceTODO/ToDoDescription" type="string" relevant="(selected(/data/purpose, 'maintenanceTODO'))"/>
+      <bind nodeset="/data/comments" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <select1 ref="/data/plant">
+      <label ref="jr:itext('/data/plant:label')"/>
+      <hint ref="jr:itext('/data/plant:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/plant:option0')"/>
+        <value>Ojojona</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option1')"/>
+        <value>Tamara</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option2')"/>
+        <value>Marcala</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option3')"/>
+        <value>CuatroComunidades</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option4')"/>
+        <value>Agalteca</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option5')"/>
+        <value>Alauca</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option6')"/>
+        <value>Atima</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option7')"/>
+        <value>Nicolas</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option8')"/>
+        <value>Moroceli</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option9')"/>
+        <value>Otoro</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option10')"/>
+        <value>Matias</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/plant:option11')"/>
+        <value>Other</value>
+      </item>
+    </select1>
+    <group>
+      <label ref="jr:itext('/data/operatorID:label')"/>
+      <select1 ref="/data/operatorID/OjojonaID">
+        <label ref="jr:itext('/data/operatorID/OjojonaID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/OjojonaID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/OjojonaID:option0')"/>
+          <value>2898</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/OjojonaID:option1')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/TamaraID">
+        <label ref="jr:itext('/data/operatorID/TamaraID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/TamaraID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/TamaraID:option0')"/>
+          <value>8792</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/TamaraID:option1')"/>
+          <value>8152</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/TamaraID:option2')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/MarcalaID">
+        <label ref="jr:itext('/data/operatorID/MarcalaID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/MarcalaID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MarcalaID:option0')"/>
+          <value>7433</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MarcalaID:option1')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/CuatroComunidadesID">
+        <label ref="jr:itext('/data/operatorID/CuatroComunidadesID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/CuatroComunidadesID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/CuatroComunidadesID:option0')"/>
+          <value>0547</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/CuatroComunidadesID:option1')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/AgaltecaID">
+        <label ref="jr:itext('/data/operatorID/AgaltecaID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/AgaltecaID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AgaltecaID:option0')"/>
+          <value>5126</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AgaltecaID:option1')"/>
+          <value>2385</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AgaltecaID:option2')"/>
+          <value>1592</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AgaltecaID:option3')"/>
+          <value>6597</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AgaltecaID:option4')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/AlaucaID">
+        <label ref="jr:itext('/data/operatorID/AlaucaID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/AlaucaID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AlaucaID:option0')"/>
+          <value>2460</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AlaucaID:option1')"/>
+          <value>7068</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AlaucaID:option2')"/>
+          <value>9489</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AlaucaID:option3')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/AtimaID">
+        <label ref="jr:itext('/data/operatorID/AtimaID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/AtimaID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AtimaID:option0')"/>
+          <value>9979</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/AtimaID:option1')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/NicolasID">
+        <label ref="jr:itext('/data/operatorID/NicolasID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/NicolasID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/NicolasID:option0')"/>
+          <value>2021</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/NicolasID:option1')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/MoroceliID">
+        <label ref="jr:itext('/data/operatorID/MoroceliID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/MoroceliID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MoroceliID:option0')"/>
+          <value>4497</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MoroceliID:option1')"/>
+          <value>5843</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MoroceliID:option2')"/>
+          <value>3064</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MoroceliID:option3')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/OtoroID">
+        <label ref="jr:itext('/data/operatorID/OtoroID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/OtoroID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/OtoroID:option0')"/>
+          <value>0505</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/OtoroID:option1')"/>
+          <value>3891</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/OtoroID:option2')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+      <select1 ref="/data/operatorID/MatiasID">
+        <label ref="jr:itext('/data/operatorID/MatiasID:label')"/>
+        <hint ref="jr:itext('/data/operatorID/MatiasID:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MatiasID:option0')"/>
+          <value>1341</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MatiasID:option1')"/>
+          <value>2655</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MatiasID:option2')"/>
+          <value>0836</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/operatorID/MatiasID:option3')"/>
+          <value>Other</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/OtherID">
+      <label ref="jr:itext('/data/OtherID:label')"/>
+    </input>
+    <select ref="/data/purpose">
+      <label ref="jr:itext('/data/purpose:label')"/>
+      <item>
+        <label ref="jr:itext('/data/purpose:option0')"/>
+        <value>plantData</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/purpose:option1')"/>
+        <value>backwash</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/purpose:option2')"/>
+        <value>maintenanceDone</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/purpose:option3')"/>
+        <value>maintenanceTODO</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/purpose:option4')"/>
+        <value>Other</value>
+      </item>
+    </select>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/plantData:label')"/>
+      <input ref="/data/plantData/timeCollected">
+        <label ref="jr:itext('/data/plantData/timeCollected:label')"/>
+        <hint ref="jr:itext('/data/plantData/timeCollected:hint')"/>
+      </input>
+      <input ref="/data/plantData/flowRate">
+        <label ref="jr:itext('/data/plantData/flowRate:label')"/>
+        <hint ref="jr:itext('/data/plantData/flowRate:hint')"/>
+      </input>
+      <select1 ref="/data/plantData/flowUnits">
+        <label ref="jr:itext('/data/plantData/flowUnits:label')"/>
+        <item>
+          <label ref="jr:itext('/data/plantData/flowUnits:option0')"/>
+          <value>Lps</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/plantData/flowUnits:option1')"/>
+          <value>Galpmin</value>
+        </item>
+      </select1>
+      <input ref="/data/plantData/coagulantDose">
+        <label ref="jr:itext('/data/plantData/coagulantDose:label')"/>
+        <hint ref="jr:itext('/data/plantData/coagulantDose:hint')"/>
+      </input>
+      <!--WIDGETS -->
+      <input ref="/data/plantData/widgets/rawWaterTurbidity"
+        appearance="ex:org.post.aguaclara.post_bt_turbidimeter_widget.COLLECT()">
+         <label ref="jr:itext('/data/plantData/widgets/rawWaterTurbidity:label')"/>
+         <hint ref="jr:itext('/data/plantData/widgets/rawWaterTurbidity:hint')"/>
+      </input>
+      <!--WIDGETS -->
+      <input ref="/data/plantData/widgets/settledWaterTurbidity"
+        appearance="ex:org.post.aguaclara.post_bt_turbidimeter_widget.COLLECT()">
+        <label ref="jr:itext('/data/plantData/widgets/settledWaterTurbidity:label')"/>
+        <hint ref="jr:itext('/data/plantData/widgets/settledWaterTurbidity:hint')"/>
+      </input>
+      <input ref="/data/plantData/widgets/filteredWaterTurbidity"
+        appearance="ex:org.post.aguaclara.post_bt_turbidimeter_widget.COLLECT()">
+        <label ref="jr:itext('/data/plantData/widgets/filteredWaterTurbidity:label')"/>
+        <hint ref="jr:itext('/data/plantData/widgets/filteredWaterTurbidity:hint')"/>
+      </input>
+      <input ref="/data/plantData/chlorineDose">
+        <label ref="jr:itext('/data/plantData/chlorineDose:label')"/>
+        <hint ref="jr:itext('/data/plantData/chlorineDose:hint')"/>
+      </input>
+      <input ref="/data/plantData/entranceWaterLevel">
+        <label ref="jr:itext('/data/plantData/entranceWaterLevel:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/backwash:label')"/>
+      <select1 ref="/data/backwash/whichFilter">
+        <label ref="jr:itext('/data/backwash/whichFilter:label')"/>
+        <item>
+          <label ref="jr:itext('/data/backwash/whichFilter:option0')"/>
+          <value>1</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/backwash/whichFilter:option1')"/>
+          <value>2</value>
+        </item>
+      </select1>
+      <input ref="/data/backwash/backwashTime">
+        <label ref="jr:itext('/data/backwash/backwashTime:label')"/>
+        <hint ref="jr:itext('/data/backwash/backwashTime:hint')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/maintenanceDone:label')"/>
+      <input ref="/data/maintenanceDone/repairsDoneOther">
+        <label ref="jr:itext('/data/maintenanceDone/repairsDoneOther:label')"/>
+      </input>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/MaintenanceTODO:label')"/>
+      <input ref="/data/MaintenanceTODO/ToDoDescription">
+        <label ref="jr:itext('/data/MaintenanceTODO/ToDoDescription:label')"/>
+      </input>
+    </group>
+    <input ref="/data/comments">
+      <label ref="jr:itext('/data/comments:label')"/>
+      <hint ref="jr:itext('/data/comments:hint')"/>
+    </input>
+  </h:body>
+</h:html>
