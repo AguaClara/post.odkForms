@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>xls_datos_v1.5-3</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/xls_datos_v1.5-3/data/purpose/plantData:label">
+            <value>Report plant data</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagulantDose:label">
+            <value>Coagulant Dose (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration2:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose:label">
+            <value>What do you want to do?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/comments:label">
+            <value>Comments (optional)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/timeCollected:label">
+            <value>When did you collect this data?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel5:label">
+            <value>Water level in the filter 5 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/chlorineDose:label">
+            <value>Chlorine Dose (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/CDCPos:label">
+            <value>CDC Slider Position</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime2:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/backwash:label">
+            <value>Report a backwash</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime5:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/rawWaterTurbidity:label">
+            <value>Raw Water Turbidity (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime3:label">
+            <value>When did you put filter 3 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel4:label">
+            <value>Water level in the filter 4 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/whichFilters:label">
+            <value>Which filters did you backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/maintenanceDone:label">
+            <value>Report performed maintenance</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel1:label">
+            <value>Water level in the filter 1 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime2:label">
+            <value>When did you put filter 2 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration1:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/Other:label">
+            <value>Other</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime6:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceDone/repairsDoneOther:label">
+            <value>Tell us about the maintenance you did.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceDone:label">
+            <value>Maintenance Done</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceTODO/ToDoDescription:label">
+            <value>What maintenance needs to be done?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData:label">
+            <value>Plant Data</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime4:label">
+            <value>When did you put filter 4 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel2:label">
+            <value>Water level in the filter 2 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration3:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration4:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration5:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidityCheck:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagulantCheck:label">
+            <value>The COAGULENT dose you have entered is outside the expected range (0.0-50.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime6:label">
+            <value>When did you put filter 6 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel6:label">
+            <value>Water level in the filter 6 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/setlledWaterTurbidityCheck:label">
+            <value>The SETTLED WATER TURBIDITY you have entered is outside the expected range (0.0-20.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel3:label">
+            <value>Water level in the filter 3 entrance box (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceTODO:label">
+            <value>Maintenance To Do</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime3:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime1:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/CDCPos:hint">
+            <value>-</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/settledWaterTurbidity:label">
+            <value>Settled Water Turbidity (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagDoseSuggestion:label">
+            <value>Coagulant Dose Suggestion (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime4:hint">
+            <value>We want to know when the backwash finished.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity:label">
+            <value>Filtered Water Turbidity (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime5:label">
+            <value>When did you put filter 5 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plant:label">
+            <value>Plant Name</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration6:label">
+            <value>How long did the backwash last? (mins)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime1:label">
+            <value>When did you put filter 1 back online following the backwash?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/flowRate:label">
+            <value>Flow Rate (Liters per second L/s)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/maintenanceTODO:label">
+            <value>Report maintenance that needs to be done</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/backwashed:label">
+            <value>Do you need to report a backwash?</value>
+          </text>
+        </translation>
+        <translation lang="spanish">
+          <text id="/xls_datos_v1.5-3/data/purpose/plantData:label">
+            <value>Reportar datos sobre la planta</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagulantDose:label">
+            <value>Dosis de coagulantes (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration2:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose:label">
+            <value>¿Qué quiere hacer?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/comments:label">
+            <value>Comentarios (Opcional)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/timeCollected:label">
+            <value>¿Cuándo recogió los datos?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel5:label">
+            <value>Nivel de agua en la caja de entrada al filtro 5 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/chlorineDose:label">
+            <value>Dosis de cloro (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/CDCPos:label">
+            <value>Posición del deslizador de coagulante en la balanza</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime2:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/backwash:label">
+            <value>Reportar un retrolavado</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime5:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/rawWaterTurbidity:label">
+            <value>Turbiedad de agua cruda (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime3:label">
+            <value>Cuándo puso el filtro 3 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel4:label">
+            <value>Nivel de agua en la caja de entrada al filtro 4 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/whichFilters:label">
+            <value>Con cuál(es) filtro(s) realizó el retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/maintenanceDone:label">
+            <value>Reportar mantenimiento realizado</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel1:label">
+            <value>Nivel de agua en la caja de entrada al filtro 1 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime2:label">
+            <value>Cuándo puso el filtro 2 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration1:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/Other:label">
+            <value>Otra</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime6:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceDone/repairsDoneOther:label">
+            <value>Nos cuente del mantenimiento que hizo.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceDone:label">
+            <value>Mantenimientos Hechos</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceTODO/ToDoDescription:label">
+            <value>Qué mantenimiento hay que hacer?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData:label">
+            <value>Datos sobre la planta</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime4:label">
+            <value>Cuándo puso el filtro 4 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel2:label">
+            <value>Nivel de agua en la caja de entrada al filtro 2 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration3:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration4:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration5:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidityCheck:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagulantCheck:label">
+            <value>valor de DOSIS DE COAGULANTES que ha entrado cae fuera del rango esperado (0.0-50.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime6:label">
+            <value>Cuándo puso el filtro 6 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel6:label">
+            <value>Nivel de agua en la caja de entrada al filtro 6 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/setlledWaterTurbidityCheck:label">
+            <value>El valor de TURBIEDAD DE AGUA DECANTADA que ha entrado cae fuera del rango esperado (0.0-20.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel3:label">
+            <value>Nivel de agua en la caja de entrada al filtro 3 (cm)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/maintenanceTODO:label">
+            <value>Mantenimientos Para Hacer</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime3:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime1:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/CDCPos:hint">
+            <value>(valor de 0-100 indicado en la ventanita del deslizador)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/settledWaterTurbidity:label">
+            <value>Turbiedad de agua decantada (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/coagDoseSuggestion:label">
+            <value>Esto requiere haber descargado la aplicación &quot;POST dose&quot;. Dosis de coagulantes SUGERIDA (mg/L)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime4:hint">
+            <value>Queremos saber cuándo terminó el retrolavado.</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity:label">
+            <value>Turbiedad de agua filtrada (NTU)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime5:label">
+            <value>Cuándo puso el filtro 5 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plant:label">
+            <value>¿En cuál planta trabaja?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashDuration6:label">
+            <value>Cuánto tiempo duró el retrolavado? (min)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/backwash/backwashTime1:label">
+            <value>Cuándo puso el filtro 1 en línea después del retrolavado?</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/flowRate:label">
+            <value>Caudal (L/s)</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/purpose/maintenanceTODO:label">
+            <value>Reportar mantenimiento que hay que hacer</value>
+          </text>
+          <text id="/xls_datos_v1.5-3/data/plantData/backwashed:label">
+            <value>Usted necesita reportar un retrolavado?</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <xls_datos_v1.5-3 id="xls_datos_v1.5-3">
+          <data>
+            <collectionMethod/>
+            <deviceID/>
+            <timeStarted/>
+            <timeFinished/>
+            <plant/>
+            <nFilters/>
+            <purpose/>
+            <plantData>
+              <timeCollected/>
+              <flowRate/>
+              <CDCPos/>
+              <rawWaterTurbidity/>
+              <settledWaterTurbidity/>
+              <setlledWaterTurbidityCheck/>
+              <filteredWaterTurbidity/>
+              <filteredWaterTurbidityCheck/>
+              <coagDoseSuggestion/>
+              <coagulantDose/>
+              <coagulantCheck/>
+              <chlorineDose/>
+              <entranceWaterLevel1/>
+              <entranceWaterLevel2/>
+              <entranceWaterLevel3/>
+              <entranceWaterLevel4/>
+              <entranceWaterLevel5/>
+              <entranceWaterLevel6/>
+              <backwashed/>
+            </plantData>
+            <backwash>
+              <filterList/>
+              <whichFilters/>
+              <backwashTime1/>
+              <backwashDuration1/>
+              <backwashTime2/>
+              <backwashDuration2/>
+              <backwashTime3/>
+              <backwashDuration3/>
+              <backwashTime4/>
+              <backwashDuration4/>
+              <backwashTime5/>
+              <backwashDuration5/>
+              <backwashTime6/>
+              <backwashDuration6/>
+            </backwash>
+            <maintenanceDone>
+              <repairsDoneOther/>
+            </maintenanceDone>
+            <maintenanceTODO>
+              <ToDoDescription/>
+            </maintenanceTODO>
+            <comments/>
+          </data>
+          <meta>
+            <instanceID/>
+          </meta>
+        </xls_datos_v1.5-3>
+      </instance>
+      <instance id="nFilters" src="jr://file-csv/nFilters.csv"/>
+      <bind calculate="ODK" nodeset="/xls_datos_v1.5-3/data/collectionMethod" readonly="true()" relevant="1=2" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/xls_datos_v1.5-3/data/deviceID" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/xls_datos_v1.5-3/data/timeStarted" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/xls_datos_v1.5-3/data/timeFinished" type="dateTime"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plant" required="true()" type="select1"/>
+      <bind calculate="pulldata('nFilters', 'n', 'plantName_key',  /xls_datos_v1.5-3/data/plant )" nodeset="/xls_datos_v1.5-3/data/nFilters" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/purpose" type="select"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData" relevant="selected( /xls_datos_v1.5-3/data/purpose , 'plantData')"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/timeCollected" required="true()" type="dateTime"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/flowRate" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/CDCPos" required="true()" type="int"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/rawWaterTurbidity" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/settledWaterTurbidity" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/setlledWaterTurbidityCheck" relevant=" /xls_datos_v1.5-3/data/plantData/settledWaterTurbidity  &gt;= 20" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidityCheck" relevant=" /xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity  &gt;= 5" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/coagDoseSuggestion" required="false()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/coagulantDose" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/coagulantCheck" relevant=" /xls_datos_v1.5-3/data/plantData/coagulantDose  &gt;= 50" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/chlorineDose" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel1" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 0" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel2" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 1" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel3" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 2" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel4" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 3" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel5" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 4" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel6" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 5" required="true()" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/plantData/backwashed" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt; 0 and not(selected( /xls_datos_v1.5-3/data/purpose , 'backwash'))" type="select1"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash" relevant="selected( /xls_datos_v1.5-3/data/purpose , 'backwash') or  /xls_datos_v1.5-3/data/plantData/backwashed  = 'yes'"/>
+      <bind calculate="concat( /xls_datos_v1.5-3/data/nFilters , '_filters')" nodeset="/xls_datos_v1.5-3/data/backwash/filterList" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/whichFilters" relevant=" /xls_datos_v1.5-3/data/nFilters  &gt;= 2" type="select"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime1" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '1')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration1" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '1')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime2" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '2')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration2" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '2')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime3" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '3')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration3" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '3')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime4" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '4')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration4" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '4')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime5" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '5')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration5" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '5')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/backwash/backwashTime6" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '6')" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0)." nodeset="/xls_datos_v1.5-3/data/backwash/backwashDuration6" relevant="selected( /xls_datos_v1.5-3/data/backwash/whichFilters , '6')" type="decimal"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/maintenanceDone" relevant=" /xls_datos_v1.5-3/data/purpose  = 'maintenanceDone'"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/maintenanceDone/repairsDoneOther" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/maintenanceTODO" relevant=" /xls_datos_v1.5-3/data/purpose  = 'maintenanceTODO'"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/maintenanceTODO/ToDoDescription" type="string"/>
+      <bind nodeset="/xls_datos_v1.5-3/data/comments" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/xls_datos_v1.5-3/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/xls_datos_v1.5-3/data">
+      <input ref="/xls_datos_v1.5-3/data/collectionMethod">
+        <label>Method</label>
+      </input>
+      <select1 ref="/xls_datos_v1.5-3/data/plant">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/plant:label')"/>
+        <hint>Which plant are you working at?</hint>
+        <item>
+          <label>Ojojona</label>
+          <value>Ojojona</value>
+        </item>
+        <item>
+          <label>Tamara</label>
+          <value>Tamara</value>
+        </item>
+        <item>
+          <label>Marcala</label>
+          <value>Marcala</value>
+        </item>
+        <item>
+          <label>Cuatro Comunidades</label>
+          <value>Cuatro Comunidades</value>
+        </item>
+        <item>
+          <label>Agalteca</label>
+          <value>Agalteca</value>
+        </item>
+        <item>
+          <label>Alauca</label>
+          <value>Alauca</value>
+        </item>
+        <item>
+          <label>Atima</label>
+          <value>Atima</value>
+        </item>
+        <item>
+          <label>San Nicolas</label>
+          <value>San Nicolas</value>
+        </item>
+        <item>
+          <label>Moroceli</label>
+          <value>Moroceli</value>
+        </item>
+        <item>
+          <label>Otoro</label>
+          <value>Otoro</value>
+        </item>
+        <item>
+          <label>Matias</label>
+          <value>Matias</value>
+        </item>
+        <item>
+          <label>Las Vegas</label>
+          <value>Las Vegas</value>
+        </item>
+      </select1>
+      <select ref="/xls_datos_v1.5-3/data/purpose">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose:label')"/>
+        <item>
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose/plantData:label')"/>
+          <value>plantData</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose/backwash:label')"/>
+          <value>backwash</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose/maintenanceDone:label')"/>
+          <value>maintenanceDone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose/maintenanceTODO:label')"/>
+          <value>maintenanceTODO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/purpose/Other:label')"/>
+          <value>Other</value>
+        </item>
+      </select>
+      <group ref="/xls_datos_v1.5-3/data/plantData">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData:label')"/>
+        <input ref="/xls_datos_v1.5-3/data/plantData/timeCollected">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/timeCollected:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/flowRate">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/flowRate:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/CDCPos">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/CDCPos:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/plantData/CDCPos:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/rawWaterTurbidity">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/rawWaterTurbidity:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/settledWaterTurbidity">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/settledWaterTurbidity:label')"/>
+        </input>
+        <trigger ref="/xls_datos_v1.5-3/data/plantData/setlledWaterTurbidityCheck">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/setlledWaterTurbidityCheck:label')"/>
+        </trigger>
+        <input ref="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidity:label')"/>
+        </input>
+        <trigger ref="/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidityCheck">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/filteredWaterTurbidityCheck:label')"/>
+        </trigger>
+        <input appearance="ex:org.post.aguaclara.postdose.COLLECT(rawWaterTurbidity= /xls_datos_v1.5-3/data/plantData/rawWaterTurbidity ,plantName= /xls_datos_v1.5-3/data/plant )" ref="/xls_datos_v1.5-3/data/plantData/coagDoseSuggestion">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/coagDoseSuggestion:label')"/>
+          <hint>This requires having downloaded the app &quot;POST dose&quot;.</hint>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/coagulantDose">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/coagulantDose:label')"/>
+          <hint>Ensure that all but one of the dosage tubes are open</hint>
+        </input>
+        <trigger ref="/xls_datos_v1.5-3/data/plantData/coagulantCheck">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/coagulantCheck:label')"/>
+        </trigger>
+        <input ref="/xls_datos_v1.5-3/data/plantData/chlorineDose">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/chlorineDose:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel1">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel1:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel2">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel2:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel3">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel3:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel4">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel4:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel5">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel5:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/plantData/entranceWaterLevel6">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/entranceWaterLevel6:label')"/>
+        </input>
+        <select1 ref="/xls_datos_v1.5-3/data/plantData/backwashed">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/plantData/backwashed:label')"/>
+          <item>
+            <label>Yes</label>
+            <value>yes</value>
+          </item>
+          <item>
+            <label>No</label>
+            <value>no</value>
+          </item>
+        </select1>
+      </group>
+      <group ref="/xls_datos_v1.5-3/data/backwash">
+        <select appearance="search('filterLists', contains, 'query',  /xls_datos_v1.5-3/data/nFilters )" ref="/xls_datos_v1.5-3/data/backwash/whichFilters">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/whichFilters:label')"/>
+          <item>
+            <label>filter_label</label>
+            <value>filter_name</value>
+          </item>
+        </select>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime1">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime1:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime1:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration1">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration1:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime2">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime2:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime2:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration2">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration2:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime3">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime3:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime3:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration3">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration3:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime4">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime4:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime4:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration4">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration4:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime5">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime5:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime5:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration5">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration5:label')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashTime6">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime6:label')"/>
+          <hint ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashTime6:hint')"/>
+        </input>
+        <input ref="/xls_datos_v1.5-3/data/backwash/backwashDuration6">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/backwash/backwashDuration6:label')"/>
+        </input>
+      </group>
+      <group ref="/xls_datos_v1.5-3/data/maintenanceDone">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/maintenanceDone:label')"/>
+        <input ref="/xls_datos_v1.5-3/data/maintenanceDone/repairsDoneOther">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/maintenanceDone/repairsDoneOther:label')"/>
+        </input>
+      </group>
+      <group ref="/xls_datos_v1.5-3/data/maintenanceTODO">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/maintenanceTODO:label')"/>
+        <input ref="/xls_datos_v1.5-3/data/maintenanceTODO/ToDoDescription">
+          <label ref="jr:itext('/xls_datos_v1.5-3/data/maintenanceTODO/ToDoDescription:label')"/>
+        </input>
+      </group>
+      <input ref="/xls_datos_v1.5-3/data/comments">
+        <label ref="jr:itext('/xls_datos_v1.5-3/data/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>
