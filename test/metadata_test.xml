@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>metadata_test</h:title>
+    <model>
+      <instance>
+        <metadata_test id="metadata_test">
+          <metadata>
+            <collectionMethod/>
+            <deviceID/>
+            <timeStarted/>
+            <timeFinished/>
+            <username/>
+          </metadata>
+          <meta>
+            <instanceID/>
+          </meta>
+        </metadata_test>
+      </instance>
+      <bind nodeset="/metadata_test/metadata/collectionMethod" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/metadata_test/metadata/deviceID" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/metadata_test/metadata/timeStarted" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/metadata_test/metadata/timeFinished" type="dateTime"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/metadata_test/metadata/username" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/metadata_test/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/metadata_test/metadata">
+      <input ref="/metadata_test/metadata/collectionMethod">
+        <label>Method</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>
