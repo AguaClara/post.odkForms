@@ -1,0 +1,1840 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>COLLECT-3-3-2017</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="/COLLECT-3-3-2017/plantData/rawWaterTurbidity:label">
+            <value>Turbiedad de agua cruda (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/setlledWaterTurbidityCheck:label">
+            <value>El valor de TURBIEDAD DE AGUA DECANTADA que ha entrado cae fuera del rango esperado (0.0-20.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2:label">
+            <value>Turbiedad de agua filtrada despues de filtro 2 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5:label">
+            <value>Turbiedad de agua filtrada despues de filtro 5 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:label">
+            <value>Nivel de agua en la caja de entrada al filtro 4 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantCheck:label">
+            <value>valor de DOSIS DE COAGULANTES que ha entrado cae fuera del rango esperado (0.0-50.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 7? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck5:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashTime3:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/stockConcentration:label">
+            <value>Reportar una nueva concentración de madre</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6:label">
+            <value>Turbiedad de agua filtrada despues de filtro 6 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:label">
+            <value>Nivel de agua en la caja de entrada al filtro 6 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDose:label">
+            <value>Dosis de coagulantes (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8:label">
+            <value>Retrolavad8</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:label">
+            <value>Nivel de agua en la caja de entrada al filtro 7 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck7:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:label">
+            <value>Nivel de agua en la caja de entrada al filtro 5 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/timeCollected:label">
+            <value>¿Cuándo recogió los datos?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes:label">
+            <value>Retrolavados</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock:label">
+            <value>Usted hizo una nueva concentración madre?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:label">
+            <value>pH de agua en el floculador</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:label">
+            <value>¿Necesita reportar un retrolavado del filtro 8?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:label">
+            <value>¿Necesita reportar una nueva concentración madre de coagulante?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7:label">
+            <value>Retrolavado7</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/feedback:label">
+            <value>Realimentación</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:label">
+            <value>pH de agua del tanque de distribucion</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:label">
+            <value>concentración madre de cloro(g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck4:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:label">
+            <value>¿Necesita reportar un retrolavado del filtro 3?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/chlorineDose:label">
+            <value>Dosis de cloro (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:label">
+            <value>¿Necesita reportar un retrolavado del filtro 1?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:label">
+            <value>pH de agua cruda</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 8? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck2:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/settledWaterTurbidity:label">
+            <value>Turbiedad de agua decantada (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/Other:label">
+            <value>Otra</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 5? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashTime7:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/CDCPos:label">
+            <value>Posición del deslizador de coagulante en la balanza</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3:label">
+            <value>Retrolavado3</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionConductivity:label">
+            <value>Conductividad de agua del tanque de distribucion (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:label">
+            <value>Nivel de agua en la caja de entrada al filtro 3 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:label">
+            <value>¿Necesita reportar un retrolavado del filtro 4?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:jr:constraintMsg">
+            <value>La concentración madre que ha ingresado está fuera del rango esperado (25.0-250.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:label">
+            <value>¿Necesita reportar un retrolavado del filtro 6?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:hint">
+            <value>Necesita tener la aplicación &quot;POST Dose.&quot; Puede omitir este paso si no tiene la aplicación.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
+            <value>Nivel de agua en la caja de entrada al filtro 8 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:jr:constraintMsg">
+            <value>La concentración madre que ha ingresado está fuera del rango esperado (1.5-15.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceConductivity:label">
+            <value>Conductividad de agua cruda (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/backwash:label">
+            <value>Reportar un retrolavado</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocConductivity:label">
+            <value>Conductividad de agua en el floculador (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/HClDose:jr:constraintMsg">
+            <value>El valor de HCl que ha entrado cae fuera del rango esperado (0.0-10.0)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:jr:constraintMsg">
+            <value>El pH NIVEL está fuera del rango esperado (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4:label">
+            <value>Retrolavado4</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration:label">
+            <value>Nueva concentración madre</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:label">
+            <value>Concentración madre de coagulante (g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed:label">
+            <value>Usted necesita reportar un retrolavado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashTime1:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:jr:constraintMsg">
+            <value>La temperatura está fuera del rango esperado (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7:label">
+            <value>Turbiedad de agua filtrada despues de filtro 7 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/maintenanceDone:label">
+            <value>Reportar mantenimiento realizado</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1:label">
+            <value>Retrolavado1</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:label">
+            <value>¿Necesita reportar una nueva concentración madre de cloro?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:label">
+            <value>Nivel de agua en la caja de entrada al filtro 4 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:label">
+            <value>Nivel de agua en la caja de entrada al filtro 2 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceDone/repairsDoneOther:label">
+            <value>Nos cuente del mantenimiento que hizo.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:jr:constraintMsg">
+            <value>La NIVELA DE GUA que ha inge ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/HClDose:label">
+            <value>Dosis de HCl (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck8:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:label">
+            <value>¿Necesita reportar una nueva concentración madre de ácido clorhídrico?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:label">
+            <value>Nivel de agua en la caja de entrada al filtro 8 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:label">
+            <value>La siguiente es una sugerencia de la dosis de coagulante basada en la calidad actual del agua y el rendimiento de la planta anterior. Por favor puntee en &quot;Lanzar&quot; y luego ajuste su dosis de coagulante a la siguiente sugerencia (en mg / l):</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3:label">
+            <value>Turbiedad de agua filtrada despues de filtro 3 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceDone:label">
+            <value>Mantenimientos Hechos</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8:label">
+            <value>Turbiedad de agua filtrada despues de filtro 8 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/metadata/collectionMethod:label">
+            <value>-</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceTODO/ToDoDescription:label">
+            <value>Qué mantenimiento hay que hacer?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:label">
+            <value>Nivel de agua en la caja de entrada al filtro 5 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashTime8:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck1:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:label">
+            <value>Nivel de agua en la caja de entrada al filtro 6 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6:label">
+            <value>Retrolavado6</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5:label">
+            <value>Retrolavado5</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashTime5:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/CDCPos:hint">
+            <value>Asegurar todos de los tubos de dosis estan abierto excepto uno</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 2? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:jr:constraintMsg">
+            <value>El pH NIVEL está fuera del rango esperado (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:label">
+            <value>Nivel de agua en la caja de entrada al filtro 3 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/feedback/comments:label">
+            <value>Comentarios (Opcional)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2:label">
+            <value>Retrolavado2</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose:label">
+            <value>¿Qué quiere hacer?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:label">
+            <value>Nivel de agua en la caja de entrada al filtro 7 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/flowRate:label">
+            <value>Caudal (L/s)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:label">
+            <value>¿Necesita reportar un retrolavado del filtro 7?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 3? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:label">
+            <value>¿Necesita reportar un retrolavado del filtro 2?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4:label">
+            <value>Turbiedad de agua filtrada despues de filtro 4 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/maintenanceTODO:label">
+            <value>Reportar mantenimiento que hay que hacer</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:label">
+            <value>Nivel de agua en la caja de entrada al filtro 2 despues retrolavado (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData:label">
+            <value>Datos sobre la planta</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1:label">
+            <value>Turbiedad de agua filtrada despues de filtro 1 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:label">
+            <value>Temperatura de agua cruda ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:jr:constraintMsg">
+            <value>El pH NIVEL está fuera del rango esperado (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/plantData:label">
+            <value>Reportar datos sobre la planta</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:jr:constraintMsg">
+            <value>La DURACIÓN DE BACKWASH que ha ingresado está fuera del rango esperado (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashTime6:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceTODO:label">
+            <value>Mantenimientos Para Hacer</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck6:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:jr:constraintMsg">
+            <value>La concentración madre que ha ingresado está fuera del rango esperado (60.0-600.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashTime2:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:label">
+            <value>Temperatura de agua del tanque de distribucion ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 1? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:label">
+            <value>¿Necesita reportar un retrolavado del filtro 5?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 6? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:label">
+            <value>Temperatura de agua en el floculador ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3:label">
+            <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:label">
+            <value>Cuánto tiempo duró el retrolavado del filtro 4? (minutos)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:hint">
+            <value>Si &quot;No&quot;, salte esta pregunta.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/yes:label">
+            <value>Sí</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:label">
+            <value>concentración madre de ácido clorhídrico (g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashTime4:label">
+            <value>A que hora se hizo el retrolovado?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:jr:constraintMsg">
+            <value>La temperatura está fuera del rango esperado (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:jr:constraintMsg">
+            <value>La temperatura está fuera del rango esperado (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:label">
+            <value>Nivel de agua en la caja de entrada al filtro 1 (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:label">
+            <value>Nivel de agua en la caja de entrada al filtro 1 despues retrolavado (cm)</value>
+          </text>
+        </translation>
+        <translation lang="English">
+          <text id="/COLLECT-3-3-2017/plantData/rawWaterTurbidity:label">
+            <value>Raw Water Turbidity (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/setlledWaterTurbidityCheck:label">
+            <value>The SETTLED WATER TURBIDITY you have entered is outside the expected range (0.0-20.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2:label">
+            <value>Filtered Water Turbidity after filter 2 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5:label">
+            <value>Filtered Water Turbidity after filter 1 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:label">
+            <value>Water level in filter 4 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantCheck:label">
+            <value>The COAGULENT dose you have entered is outside the expected range (0.0-50.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:label">
+            <value>How long did the backwash of filter 7 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck5:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashTime3:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/stockConcentration:label">
+            <value>Report a new stock concentration</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6:label">
+            <value>Filtered Water Turbidity after filter 2 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:label">
+            <value>Water level in filter 6 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDose:label">
+            <value>Coagulant Dose (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8:label">
+            <value>Backwash8</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:label">
+            <value>Water level in filter 7 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck7:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:label">
+            <value>Water level in filter 5 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/timeCollected:label">
+            <value>When did you collect this data?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/metadata/collectionMethod:label">
+            <value>This is a dummy question not used. It is needed to make metadata a valid group and this column is used for any future methods of collecting forms to distinguish themselves, such as a website.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock:label">
+            <value>Did you make a new stock concentration?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:label">
+            <value>Flocculator channel pH</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:label">
+            <value>Did you backwash filter 8?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:label">
+            <value>Do you need to report a new coagulant stock concentration?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7:label">
+            <value>Backwash7</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/feedback:label">
+            <value>Feedback</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:label">
+            <value>Distribution Tank pH</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:label">
+            <value>What is the new chlorine stock concentration? (g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck4:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:label">
+            <value>Did you backwash filter 3?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/chlorineDose:label">
+            <value>Chlorine Dose (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:label">
+            <value>Did you backwash filter 1?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:label">
+            <value>Raw Water pH</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:label">
+            <value>How long did the backwash of filter 8 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck2:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/settledWaterTurbidity:label">
+            <value>Settled Water Turbidity (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/Other:label">
+            <value>Other</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:label">
+            <value>How long did the backwash of filter 5 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashTime7:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/CDCPos:label">
+            <value>CDC Slider Position</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3:label">
+            <value>Backwash3</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionConductivity:label">
+            <value>Distribution Tank Conductivity (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:label">
+            <value>Water level in filter 3 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:label">
+            <value>Did you backwash filter 4?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:jr:constraintMsg">
+            <value>The COAGULANT STOCK CONCENTRATION you have entered is outside the expected range (25.0-250.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:label">
+            <value>Did you backwash filter 6?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:hint">
+            <value>You need to have downloaded the &quot;POST Dose&quot; app. You can skip this step if you don't have the application.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
+            <value>Water level in filter 8 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:jr:constraintMsg">
+            <value>The CHLORINE STOCK CONCENTRATION you have entered is outside the expected range (1.5-15.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceConductivity:label">
+            <value>Raw Water Conductivity (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/backwash:label">
+            <value>Report a backwash</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocConductivity:label">
+            <value>Flocculator channel Conductivity (s/m)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/HClDose:jr:constraintMsg">
+            <value>The HCl dose you have entered is outside the expected range (0-10)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:jr:constraintMsg">
+            <value>The pH LEVEL is outside the expected range (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4:label">
+            <value>Backwash4</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration:label">
+            <value>Stock Concentration</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:label">
+            <value>What is the new coagulant stock concentration? (g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed:label">
+            <value>Do you need to report a backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashTime1:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:jr:constraintMsg">
+            <value>The TEMPERATURE is outside the expected range (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7:label">
+            <value>Filtered Water Turbidity after filter 3 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/maintenanceDone:label">
+            <value>Report performed maintenance</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1:label">
+            <value>Backwash1</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:label">
+            <value>Do you need to report a new chlorine stock concentration?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:label">
+            <value>Water level in filter 4 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:label">
+            <value>Water level in filter 2 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceDone/repairsDoneOther:label">
+            <value>Tell us about the maintenance you did.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/HClDose:label">
+            <value>HCl Dose (mg/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck8:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:label">
+            <value>Do you need to report a new HCl stock concentration?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:label">
+            <value>Water level in filter 8 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/backwashed/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:label">
+            <value>The following is a coagulant dose suggestion based on current water quality and past plant performance. Please tap “Launch” then set your coagulant dose to the following suggestion (in mg/l):</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3:label">
+            <value>Filtered Water Turbidity after filter 3 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceDone:label">
+            <value>Maintenance Done</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8:label">
+            <value>Filtered Water Turbidity after filter 4 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceTODO/ToDoDescription:label">
+            <value>What maintenance needs to be done?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:label">
+            <value>Water level in filter 5 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashTime8:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck1:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:label">
+            <value>Water level in filter 6 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6:label">
+            <value>Backwash6</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5:label">
+            <value>Backwash5</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashTime5:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/CDCPos:hint">
+            <value>Ensure that all but one of the dosage tubes are open</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:label">
+            <value>How long did the backwash of filter 2 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:jr:constraintMsg">
+            <value>The pH LEVEL is outside the expected range (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:label">
+            <value>Water level in filter 3 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/feedback/comments:label">
+            <value>Comments (optional)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2:label">
+            <value>Backwash2</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose:label">
+            <value>What do you want to do?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:label">
+            <value>Water level in filter 7 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/flowRate:label">
+            <value>Flow Rate (Liters per second L/s)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:label">
+            <value>Did you backwash filter 7?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:label">
+            <value>How long did the backwash of filter 3 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:label">
+            <value>Did you backwash filter 2?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4:label">
+            <value>Filtered Water Turbidity after filter 4 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/newStock/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/maintenanceTODO:label">
+            <value>Report maintenance that needs to be done</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:label">
+            <value>Water level in filter 2 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData:label">
+            <value>Plant Data</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1:label">
+            <value>Filtered Water Turbidity after filter 1 (NTU)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:label">
+            <value>Raw Water Temperature ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:jr:constraintMsg">
+            <value>The pH LEVEL is outside the expected range (1.4-14)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/parameters/purpose/plantData:label">
+            <value>Report plant data</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:jr:constraintMsg">
+            <value>The BACKWASH DURATION you have entered is outside the expected range (5.0-60.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashTime6:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/maintenanceTODO:label">
+            <value>Maintenance To Do</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck6:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:jr:constraintMsg">
+            <value>The HCL STOCK CONCENTRATION you have entered is outside the expected range (60-600.0).</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash2/backwashTime2:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:label">
+            <value>Distribution Tank Temperature ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:label">
+            <value>How long did the backwash of filter 1 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:label">
+            <value>Did you backwash filter 5?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:label">
+            <value>How long did the backwash of filter 6 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:label">
+            <value>Flocculator channel Temperature ( C )</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3:label">
+            <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:label">
+            <value>How long did the backwash of filter 4 last? (mins)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:hint">
+            <value>If &quot;No&quot;, skip this question</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:label">
+            <value>Water level in filter 1 entrance box after backwash(cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/no:label">
+            <value>No</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/yes:label">
+            <value>Yes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes:label">
+            <value>Backwashes</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:label">
+            <value>What is the new HCl stock concentration? (g/L)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/backwashes/backwash4/backwashTime4:label">
+            <value>When did you perform the backwash?</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:jr:constraintMsg">
+            <value>The TEMPERATURE is outside the expected range (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:jr:constraintMsg">
+            <value>The TEMPERATURE is outside the expected range (5-50)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:label">
+            <value>Water level in filter 1 entrance box (cm)</value>
+          </text>
+          <text id="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <COLLECT-3-3-2017 id="COLLECT-3-3-2017">
+          <metadata>
+            <collectionMethod/>
+            <phoneNumber/>
+            <deviceID/>
+            <timeStarted/>
+            <timeFinished/>
+            <nFilters/>
+            <needspH/>
+            <acidDosingChemical/>
+          </metadata>
+          <parameters>
+            <plantName/>
+            <purpose/>
+          </parameters>
+          <plantData>
+            <timeCollected/>
+            <flowRate/>
+            <CDCPos/>
+            <rawWaterTurbidity/>
+            <settledWaterTurbidity/>
+            <setlledWaterTurbidityCheck/>
+            <filteredTurbidities>
+              <filteredWaterTurbidity1/>
+              <filteredWaterTurbidityCheck1/>
+              <filteredWaterTurbidity2/>
+              <filteredWaterTurbidityCheck2/>
+              <filteredWaterTurbidity3/>
+              <filteredWaterTurbidityCheck3/>
+              <filteredWaterTurbidity4/>
+              <filteredWaterTurbidityCheck4/>
+              <filteredWaterTurbidity5/>
+              <filteredWaterTurbidityCheck5/>
+              <filteredWaterTurbidity6/>
+              <filteredWaterTurbidityCheck6/>
+              <filteredWaterTurbidity7/>
+              <filteredWaterTurbidityCheck7/>
+              <filteredWaterTurbidity8/>
+              <filteredWaterTurbidityCheck8/>
+            </filteredTurbidities>
+            <doses>
+              <coagulantDoseSuggestion/>
+              <coagulantDose/>
+              <coagulantCheck/>
+              <chlorineDose/>
+              <HClDose/>
+            </doses>
+            <entranceWaterLevels>
+              <entranceWaterLevel1/>
+              <entranceWaterLevel2/>
+              <entranceWaterLevel3/>
+              <entranceWaterLevel4/>
+              <entranceWaterLevel5/>
+              <entranceWaterLevel6/>
+              <entranceWaterLevel7/>
+              <entranceWaterLevel8/>
+            </entranceWaterLevels>
+            <pHMeasurements>
+              <entrancepH/>
+              <entranceTemp/>
+              <entranceConductivity/>
+              <flocpH/>
+              <flocTemp/>
+              <flocConductivity/>
+              <distributionpH/>
+              <distributionTemp/>
+              <distributionConductivity/>
+            </pHMeasurements>
+            <backwashed/>
+            <newStock/>
+          </plantData>
+          <backwashes>
+            <backwash1>
+              <backwashCheck1/>
+              <backwashTime1/>
+              <backwashDuration1/>
+              <entranceWaterLevelAfterBackwash1/>
+            </backwash1>
+            <backwash2>
+              <backwashCheck2/>
+              <backwashTime2/>
+              <backwashDuration2/>
+              <entranceWaterLevelAfterBackwash2/>
+            </backwash2>
+            <backwash3>
+              <backwashCheck3/>
+              <backwashTime3/>
+              <backwashDuration3/>
+              <entranceWaterLevelAfterBackwash3/>
+            </backwash3>
+            <backwash4>
+              <backwashCheck4/>
+              <backwashTime4/>
+              <backwashDuration4/>
+              <entranceWaterLevelAfterBackwash4/>
+            </backwash4>
+            <backwash5>
+              <backwashCheck5/>
+              <backwashTime5/>
+              <backwashDuration5/>
+              <entranceWaterLevelAfterBackwash5/>
+            </backwash5>
+            <backwash6>
+              <backwashCheck6/>
+              <backwashTime6/>
+              <backwashDuration6/>
+              <entranceWaterLevelAfterBackwash6/>
+            </backwash6>
+            <backwash7>
+              <backwashCheck7/>
+              <backwashTime7/>
+              <backwashDuration7/>
+              <entranceWaterLevelAfterBackwash7/>
+            </backwash7>
+            <backwash8>
+              <backwashCheck8/>
+              <backwashTime8/>
+              <backwashDuration8/>
+              <entranceWaterLevelAfterBackwash8/>
+            </backwash8>
+          </backwashes>
+          <stockConcentration>
+            <stockCoagulantCheck/>
+            <stockCoagulantConcentration/>
+            <stockChlorineCheck/>
+            <stockChlorineConcentration/>
+            <HClConcentration>
+              <stockHClCheck/>
+              <stockHClConcentration/>
+            </HClConcentration>
+          </stockConcentration>
+          <maintenanceDone>
+            <repairsDoneOther/>
+          </maintenanceDone>
+          <maintenanceTODO>
+            <ToDoDescription/>
+          </maintenanceTODO>
+          <feedback>
+            <comments/>
+          </feedback>
+          <meta>
+            <instanceID/>
+          </meta>
+        </COLLECT-3-3-2017>
+      </instance>
+      <bind nodeset="/COLLECT-3-3-2017/metadata/collectionMethod" relevant="1=2" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="phonenumber" nodeset="/COLLECT-3-3-2017/metadata/phoneNumber" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/COLLECT-3-3-2017/metadata/deviceID" type="string"/>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/COLLECT-3-3-2017/metadata/timeStarted" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/COLLECT-3-3-2017/metadata/timeFinished" type="dateTime"/>
+      <bind calculate="number(pulldata('plantParameters', 'nFilters', 'plantName_key',  /COLLECT-3-3-2017/parameters/plantName ))" nodeset="/COLLECT-3-3-2017/metadata/nFilters" type="string"/>
+      <bind calculate="number(pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-3-3-2017/parameters/plantName ))" nodeset="/COLLECT-3-3-2017/metadata/needspH" type="string"/>
+      <bind calculate="pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-3-3-2017/parameters/plantName )" nodeset="/COLLECT-3-3-2017/metadata/acidDosingChemical" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/COLLECT-3-3-2017/parameters/plantName" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/parameters/purpose" type="select"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData" relevant="selected( /COLLECT-3-3-2017/parameters/purpose , 'plantData')"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/timeCollected" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/flowRate" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/CDCPos" required="true()" type="int"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/rawWaterTurbidity" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/settledWaterTurbidity" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/setlledWaterTurbidityCheck" relevant=" /COLLECT-3-3-2017/plantData/settledWaterTurbidity  &gt;= 20" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 0" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck1" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 1" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck2" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 2" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 3" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck4" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 4" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck5" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 5" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck6" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 6" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck7" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 7" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck8" relevant=" /COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8  &gt;= 5" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion" required="false()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/doses/coagulantDose" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/doses/coagulantCheck" relevant=" /COLLECT-3-3-2017/plantData/doses/coagulantDose  &gt;= 50" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/doses/chlorineDose" required="true()" type="decimal"/>
+      <bind constraint=".&lt;=10 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/doses/HClDose:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/doses/HClDose" relevant=" /COLLECT-3-3-2017/metadata/needspH  = 1" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 0"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 0" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 1" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 2" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 3" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 4" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 5" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 6" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 7" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements" relevant=" /COLLECT-3-3-2017/metadata/needspH  = 1"/>
+      <bind constraint=".&lt;=14 and .&gt;=1.4" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH" type="decimal"/>
+      <bind constraint=".&lt;=50 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceConductivity" type="decimal"/>
+      <bind constraint=".&lt;=14 and .&gt;=1.4" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH" type="decimal"/>
+      <bind constraint=".&lt;=50 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/flocConductivity" type="decimal"/>
+      <bind constraint=".&lt;=14 and .&gt;=1.4" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH" type="decimal"/>
+      <bind constraint=".&lt;=50 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionConductivity" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/backwashed" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 0 and not(selected( /COLLECT-3-3-2017/parameters/purpose , 'backwash'))" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/plantData/newStock" relevant="not(selected( /COLLECT-3-3-2017/parameters/purpose , 'stock concentration'))" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes" relevant="selected( /COLLECT-3-3-2017/parameters/purpose , 'backwash') or selected( /COLLECT-3-3-2017/plantData/backwashed , 'yes')"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash1" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 0"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash1/backwashTime1" relevant=" /COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1" relevant=" /COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1" relevant=" /COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash2" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash2/backwashTime2" relevant=" /COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2" relevant=" /COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2" relevant=" /COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash3" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 2"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash3/backwashTime3" relevant=" /COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3" relevant=" /COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3" relevant=" /COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash4" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 3"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash4/backwashTime4" relevant=" /COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4" relevant=" /COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4" relevant=" /COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash5" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 4"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash5/backwashTime5" relevant=" /COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5" relevant=" /COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5" relevant=" /COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash6" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 5"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash6/backwashTime6" relevant=" /COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6" relevant=" /COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6" relevant=" /COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash7" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 6"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash7/backwashTime7" relevant=" /COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7" relevant=" /COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7" relevant=" /COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash8" relevant=" /COLLECT-3-3-2017/metadata/nFilters  &gt; 7"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8" required="true()" type="select1"/>
+      <bind nodeset="/COLLECT-3-3-2017/backwashes/backwash8/backwashTime8" relevant=" /COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="dateTime"/>
+      <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8" relevant=" /COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="decimal"/>
+      <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8" relevant=" /COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/stockConcentration" relevant="selected( /COLLECT-3-3-2017/parameters/purpose , 'stockConcentration') or selected( /COLLECT-3-3-2017/plantData/newStock , 'yes')"/>
+      <bind nodeset="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck" required="true()" type="select1"/>
+      <bind constraint=".&lt;=250 and .&gt;= 25" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration" relevant=" /COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck  = 'yes'" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck" required="true()" type="select1"/>
+      <bind constraint=".&lt;=15 and .&gt;= 1.5" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration" relevant=" /COLLECT-3-3-2017/stockConcentration/stockChlorineCheck  = 'yes'" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/stockConcentration/HClConcentration" relevant=" /COLLECT-3-3-2017/metadata/needspH  = 1"/>
+      <bind nodeset="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck" required="true()" type="select1"/>
+      <bind constraint=".&lt;=600 and .&gt; 60" jr:constraintMsg="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:jr:constraintMsg')" nodeset="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration" relevant=" /COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck  = 'yes'" type="decimal"/>
+      <bind nodeset="/COLLECT-3-3-2017/maintenanceDone" relevant=" /COLLECT-3-3-2017/parameters/purpose  = 'maintenanceDone'"/>
+      <bind nodeset="/COLLECT-3-3-2017/maintenanceDone/repairsDoneOther" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/maintenanceTODO" relevant=" /COLLECT-3-3-2017/parameters/purpose  = 'maintenanceTODO'"/>
+      <bind nodeset="/COLLECT-3-3-2017/maintenanceTODO/ToDoDescription" type="string"/>
+      <bind nodeset="/COLLECT-3-3-2017/feedback/comments" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/COLLECT-3-3-2017/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/COLLECT-3-3-2017/metadata">
+      <input ref="/COLLECT-3-3-2017/metadata/collectionMethod">
+        <label ref="jr:itext('/COLLECT-3-3-2017/metadata/collectionMethod:label')"/>
+      </input>
+    </group>
+    <group ref="/COLLECT-3-3-2017/parameters">
+      <select ref="/COLLECT-3-3-2017/parameters/purpose">
+        <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose:label')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/plantData:label')"/>
+          <value>plantData</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/backwash:label')"/>
+          <value>backwash</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/stockConcentration:label')"/>
+          <value>stockConcentration</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/maintenanceDone:label')"/>
+          <value>maintenanceDone</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/maintenanceTODO:label')"/>
+          <value>maintenanceTODO</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/parameters/purpose/Other:label')"/>
+          <value>Other</value>
+        </item>
+      </select>
+    </group>
+    <group ref="/COLLECT-3-3-2017/plantData">
+      <label ref="jr:itext('/COLLECT-3-3-2017/plantData:label')"/>
+      <input ref="/COLLECT-3-3-2017/plantData/timeCollected">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/timeCollected:label')"/>
+      </input>
+      <input ref="/COLLECT-3-3-2017/plantData/flowRate">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/flowRate:label')"/>
+      </input>
+      <input ref="/COLLECT-3-3-2017/plantData/CDCPos">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/CDCPos:label')"/>
+        <hint ref="jr:itext('/COLLECT-3-3-2017/plantData/CDCPos:hint')"/>
+      </input>
+      <input ref="/COLLECT-3-3-2017/plantData/rawWaterTurbidity">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/rawWaterTurbidity:label')"/>
+      </input>
+      <input ref="/COLLECT-3-3-2017/plantData/settledWaterTurbidity">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/settledWaterTurbidity:label')"/>
+      </input>
+      <trigger ref="/COLLECT-3-3-2017/plantData/setlledWaterTurbidityCheck">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/setlledWaterTurbidityCheck:label')"/>
+      </trigger>
+      <group ref="/COLLECT-3-3-2017/plantData/filteredTurbidities">
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity1:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck1:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity2:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck2:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity3:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity4:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck4:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity5:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck5:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity6:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck6:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity7:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck7:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidity8:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck8:label')"/>
+        </trigger>
+      </group>
+      <group ref="/COLLECT-3-3-2017/plantData/doses">
+        <input appearance="ex:org.post.aguaclara.postdose.COLLECT(rawWaterTurbidity= /COLLECT-3-3-2017/plantData/rawWaterTurbidity , plantName= /COLLECT-3-3-2017/parameters/plantName )" ref="/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/coagulantDoseSuggestion:hint')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/doses/coagulantDose">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/coagulantDose:label')"/>
+        </input>
+        <trigger ref="/COLLECT-3-3-2017/plantData/doses/coagulantCheck">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/coagulantCheck:label')"/>
+        </trigger>
+        <input ref="/COLLECT-3-3-2017/plantData/doses/chlorineDose">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/chlorineDose:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/doses/HClDose">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/doses/HClDose:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels">
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel1:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel2:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel3:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel4:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel5:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel6:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel7:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/plantData/pHMeasurements">
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/entrancepH:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/entranceTemp:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/entranceConductivity">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/entranceConductivity:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/flocpH:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/flocTemp:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/flocConductivity">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/flocConductivity:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/distributionpH:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/distributionTemp:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/plantData/pHMeasurements/distributionConductivity">
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/pHMeasurements/distributionConductivity:label')"/>
+        </input>
+      </group>
+      <select1 ref="/COLLECT-3-3-2017/plantData/backwashed">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/backwashed:label')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/backwashed/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/backwashed/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 ref="/COLLECT-3-3-2017/plantData/newStock">
+        <label ref="jr:itext('/COLLECT-3-3-2017/plantData/newStock:label')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/newStock/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/plantData/newStock/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+    </group>
+    <group ref="/COLLECT-3-3-2017/backwashes">
+      <label ref="jr:itext('/COLLECT-3-3-2017/backwashes:label')"/>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash1">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashCheck1/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash1/backwashTime1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashTime1:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/backwashDuration1:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash2">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashCheck2/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash2/backwashTime2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashTime2:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/backwashDuration2:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash3">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashCheck3/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash3/backwashTime3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashTime3:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/backwashDuration3:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash4">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashCheck4/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash4/backwashTime4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashTime4:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/backwashDuration4:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash5">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashCheck5/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash5/backwashTime5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashTime5:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/backwashDuration5:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash6">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashCheck6/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash6/backwashTime6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashTime6:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/backwashDuration6:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash7">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashCheck7/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash7/backwashTime7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashTime7:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/backwashDuration7:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:label')"/>
+        </input>
+      </group>
+      <group ref="/COLLECT-3-3-2017/backwashes/backwash8">
+        <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8:label')"/>
+        <select1 ref="/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashCheck8/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash8/backwashTime8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashTime8:label')"/>
+          <hint>Queremos saber cuando comenzó el retrolavado</hint>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/backwashDuration8:label')"/>
+        </input>
+        <input ref="/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8">
+          <label ref="jr:itext('/COLLECT-3-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:label')"/>
+        </input>
+      </group>
+    </group>
+    <group ref="/COLLECT-3-3-2017/stockConcentration">
+      <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration:label')"/>
+      <select1 ref="/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck">
+        <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:label')"/>
+        <hint ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck:hint')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantCheck/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration">
+        <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockCoagulantConcentration:label')"/>
+      </input>
+      <select1 ref="/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck">
+        <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:label')"/>
+        <hint ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck:hint')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/yes:label')"/>
+          <value>yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineCheck/no:label')"/>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration">
+        <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/stockChlorineConcentration:label')"/>
+      </input>
+      <group ref="/COLLECT-3-3-2017/stockConcentration/HClConcentration">
+        <select1 ref="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck">
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:label')"/>
+          <hint ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck:hint')"/>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/yes:label')"/>
+            <value>yes</value>
+          </item>
+          <item>
+            <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClCheck/no:label')"/>
+            <value>no</value>
+          </item>
+        </select1>
+        <input ref="/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration">
+          <label ref="jr:itext('/COLLECT-3-3-2017/stockConcentration/HClConcentration/stockHClConcentration:label')"/>
+        </input>
+      </group>
+    </group>
+    <group ref="/COLLECT-3-3-2017/maintenanceDone">
+      <label ref="jr:itext('/COLLECT-3-3-2017/maintenanceDone:label')"/>
+      <input ref="/COLLECT-3-3-2017/maintenanceDone/repairsDoneOther">
+        <label ref="jr:itext('/COLLECT-3-3-2017/maintenanceDone/repairsDoneOther:label')"/>
+      </input>
+    </group>
+    <group ref="/COLLECT-3-3-2017/maintenanceTODO">
+      <label ref="jr:itext('/COLLECT-3-3-2017/maintenanceTODO:label')"/>
+      <input ref="/COLLECT-3-3-2017/maintenanceTODO/ToDoDescription">
+        <label ref="jr:itext('/COLLECT-3-3-2017/maintenanceTODO/ToDoDescription:label')"/>
+      </input>
+    </group>
+    <group ref="/COLLECT-3-3-2017/feedback">
+      <label ref="jr:itext('/COLLECT-3-3-2017/feedback:label')"/>
+      <input ref="/COLLECT-3-3-2017/feedback/comments">
+        <label ref="jr:itext('/COLLECT-3-3-2017/feedback/comments:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>
