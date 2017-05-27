@@ -113,6 +113,9 @@
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/entranceTemp:label">
             <value>Temperatura de agua cruda ( C )</value>
           </text>
+          <text id="/COLLECT-27-5-2017/parameters/plant:label">
+            <value>-</value>
+          </text>
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/flocTemp:jr:constraintMsg">
             <value>La temperatura está fuera del rango esperado (5-50)</value>
           </text>
@@ -269,8 +272,8 @@
           <text id="/COLLECT-27-5-2017/stockConcentration/HClConcentration/stockHClCheck:hint">
             <value>Si &quot;No&quot;, salte esta pregunta.</value>
           </text>
-          <text id="/COLLECT-27-5-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
-            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
+          <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
+            <value>Nivel de agua en la caja de entrada al filtro 8 (cm)</value>
           </text>
           <text id="/COLLECT-27-5-2017/backwashes/backwash4/backwashTime4:label">
             <value>A que hora se hizo el retrolovado?</value>
@@ -368,8 +371,8 @@
           <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel7:label">
             <value>Nivel de agua en la caja de entrada al filtro 7 (cm)</value>
           </text>
-          <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
-            <value>Nivel de agua en la caja de entrada al filtro 8 (cm)</value>
+          <text id="/COLLECT-27-5-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
+            <value>La NIVEL DE AGUA que ha ingresado está fuera del rango esperado (0-130.0).</value>
           </text>
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/distributionTemp:jr:constraintMsg">
             <value>La temperatura está fuera del rango esperado (5-50)</value>
@@ -493,6 +496,9 @@
           </text>
           <text id="/COLLECT-27-5-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3:label">
             <value>El valor de TURBIEDAD DE AGUA FILTRADA que ha entrado cae fuera del rango esperado (0.0-5.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
+          </text>
+          <text id="/COLLECT-27-5-2017/parameters/plant/plant:label">
+            <value>plant</value>
           </text>
           <text id="/COLLECT-27-5-2017/backwashes/backwash5/backwashCheck5/yes:label">
             <value>Sí</value>
@@ -685,6 +691,9 @@
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/entranceTemp:label">
             <value>Raw Water Temperature ( C )</value>
           </text>
+          <text id="/COLLECT-27-5-2017/maintenanceDone:label">
+            <value>Maintenance Done</value>
+          </text>
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/flocTemp:jr:constraintMsg">
             <value>The TEMPERATURE is outside the expected range (5-50)</value>
           </text>
@@ -841,8 +850,8 @@
           <text id="/COLLECT-27-5-2017/stockConcentration/HClConcentration/stockHClCheck:hint">
             <value>If &quot;No&quot;, skip this question</value>
           </text>
-          <text id="/COLLECT-27-5-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
-            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
+          <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
+            <value>Water level in filter 8 entrance box (cm)</value>
           </text>
           <text id="/COLLECT-27-5-2017/backwashes/backwash4/backwashTime4:label">
             <value>When did you perform the backwash?</value>
@@ -901,8 +910,8 @@
           <text id="/COLLECT-27-5-2017/feedback:label">
             <value>Feedback</value>
           </text>
-          <text id="/COLLECT-27-5-2017/maintenanceDone:label">
-            <value>Maintenance Done</value>
+          <text id="/COLLECT-27-5-2017/parameters/plant:label">
+            <value>For which plant are you submitting data?</value>
           </text>
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/flocTemp:label">
             <value>Flocculator channel Temperature ( C )</value>
@@ -940,8 +949,8 @@
           <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel7:label">
             <value>Water level in filter 7 entrance box (cm)</value>
           </text>
-          <text id="/COLLECT-27-5-2017/plantData/entranceWaterLevels/entranceWaterLevel8:label">
-            <value>Water level in filter 8 entrance box (cm)</value>
+          <text id="/COLLECT-27-5-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg">
+            <value>The WATER LEVEL you have entered is outside the expected range (0-130).</value>
           </text>
           <text id="/COLLECT-27-5-2017/plantData/pHMeasurements/distributionTemp:jr:constraintMsg">
             <value>The TEMPERATURE is outside the expected range (5-50)</value>
@@ -1066,6 +1075,9 @@
           <text id="/COLLECT-27-5-2017/plantData/filteredTurbidities/filteredWaterTurbidityCheck3:label">
             <value>The FILTERED WATER TURBIDITY you have entered is outside the expected range (0.0-5.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
           </text>
+          <text id="/COLLECT-27-5-2017/parameters/plant/plant:label">
+            <value>plant</value>
+          </text>
           <text id="/COLLECT-27-5-2017/backwashes/backwash5/backwashCheck5/yes:label">
             <value>Yes</value>
           </text>
@@ -1150,7 +1162,7 @@
         </translation>
       </itext>
       <instance>
-        <COLLECT-27-5-2017 id="COLLECT-27-5-2017" version="2017052702">
+        <COLLECT-27-5-2017 id="COLLECT-0" version="2017052706">
           <metadata>
             <collectionMethod/>
             <phoneNumber/>
@@ -1159,6 +1171,7 @@
             <timeFinished/>
           </metadata>
           <parameters>
+            <operatingGroup/>
             <plant/>
             <purpose/>
             <nFilters/>
@@ -1300,11 +1313,12 @@
       <bind jr:preload="property" jr:preloadParams="deviceid" nodeset="/COLLECT-27-5-2017/metadata/deviceID" type="string"/>
       <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/COLLECT-27-5-2017/metadata/timeStarted" type="dateTime"/>
       <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/COLLECT-27-5-2017/metadata/timeFinished" type="dateTime"/>
-      <bind jr:preload="property" jr:preloadParams="username" nodeset="/COLLECT-27-5-2017/parameters/plant" type="string"/>
+      <bind jr:preload="property" jr:preloadParams="username" nodeset="/COLLECT-27-5-2017/parameters/operatingGroup" type="string"/>
+      <bind nodeset="/COLLECT-27-5-2017/parameters/plant" type="select1"/>
       <bind nodeset="/COLLECT-27-5-2017/parameters/purpose" type="select"/>
-      <bind calculate="number(pulldata('plantParameters', 'nFilters', 'plantName_key',  /COLLECT-27-5-2017/parameters/plant ))" nodeset="/COLLECT-27-5-2017/parameters/nFilters" type="string"/>
-      <bind calculate="number(pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-27-5-2017/parameters/plant ))" nodeset="/COLLECT-27-5-2017/parameters/needspH" type="string"/>
-      <bind calculate="pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-27-5-2017/parameters/plant )" nodeset="/COLLECT-27-5-2017/parameters/acidDosingChemical" type="string"/>
+      <bind calculate="number(pulldata('plantParameters', 'nFilters', 'plant',  /COLLECT-27-5-2017/parameters/plant ))" nodeset="/COLLECT-27-5-2017/parameters/nFilters" type="string"/>
+      <bind calculate="number(pulldata('plantParameters', 'pH', 'plant',  /COLLECT-27-5-2017/parameters/plant ))" nodeset="/COLLECT-27-5-2017/parameters/needspH" type="string"/>
+      <bind calculate="pulldata('plantParameters', 'pH', 'plant',  /COLLECT-27-5-2017/parameters/plant )" nodeset="/COLLECT-27-5-2017/parameters/acidDosingChemical" type="string"/>
       <bind nodeset="/COLLECT-27-5-2017/plantData" relevant="selected( /COLLECT-27-5-2017/parameters/purpose , 'plantData')"/>
       <bind nodeset="/COLLECT-27-5-2017/plantData/timeCollected" required="true()" type="dateTime"/>
       <bind nodeset="/COLLECT-27-5-2017/plantData/flowRate" required="true()" type="decimal"/>
@@ -1418,6 +1432,13 @@
       </input>
     </group>
     <group ref="/COLLECT-27-5-2017/parameters">
+      <select1 appearance="search('plantParameters', 'matches', 'operatingGroup',  /COLLECT-27-5-2017/parameters/operatingGroup )" ref="/COLLECT-27-5-2017/parameters/plant">
+        <label ref="jr:itext('/COLLECT-27-5-2017/parameters/plant:label')"/>
+        <item>
+          <label ref="jr:itext('/COLLECT-27-5-2017/parameters/plant/plant:label')"/>
+          <value>plant</value>
+        </item>
+      </select1>
       <select ref="/COLLECT-27-5-2017/parameters/purpose">
         <label ref="jr:itext('/COLLECT-27-5-2017/parameters/purpose:label')"/>
         <item>
