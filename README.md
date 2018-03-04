@@ -15,9 +15,9 @@ This is the code that is running on the customer’s device.
 
 
 ### Development Server vs Production Server:
-Development server: the server you send your product to be tested.
+*Development server*: the server you send your product to be tested.
 
-Production server: the server that customers use (you want the product to have little errors here).
+*Production server*: the server that customers use (you want the product to have little errors here).
 *IMPORTANT*: Most of the testing is done in the **development server**.
 
 
@@ -66,7 +66,7 @@ Go to Development and Production Aggregate Servers section of the document
 * You can log into the development server using the administrator login information on the document
 
 ### Cloning the Repository:
-Go to the POST Github repository and clone it. You can find how to clone a repository here.
+Go to the POST Github repository and clone it. You can find how to clone a repository [here](https://help.github.com/articles/cloning-a-repository).
 
 ### Download the POST Collect APP:
 Using an android device, download the Post Collect app through the play store. The app we are running is a fork of the
@@ -78,7 +78,7 @@ change the url to the link of the development server in the POST password docume
 ## Start Formatting:
 ### Save the file:
 Open an existing xls form from your local repository and save the form using save as. Make sure the file format is 
-Excel 97-2004 Workbook (.xls), not .xlsx. Clear the data (for future uses, just change the data directly). 
+Excel 97-2004 Workbook (.xls), **not** .xlsx. Clear the data (for future uses, just change the data directly). 
 
 ### Fill it in:
 Fill in the XLSForm with the types and labels you want. Save it in the end. 
