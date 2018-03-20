@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>TEST_0</h:title>
+    <model>
+      <instance>
+        <TEST_0 id="TEST_0">
+          <day/>
+          <location/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </TEST_0>
+      </instance>
+      <bind nodeset="/TEST_0/day" type="dateTime"/>
+      <bind nodeset="/TEST_0/location" type="geotrace"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/TEST_0/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/TEST_0/day">
+      <label>Enter some time and date</label>
+    </input>
+    <input ref="/TEST_0/location">
+      <label>Enter two points, silly!</label>
+      <hint>GPS coordinates can only be collected when outside.</hint>
+    </input>
+  </h:body>
+</h:html>

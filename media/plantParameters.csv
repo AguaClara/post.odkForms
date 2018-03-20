@@ -1,15 +1,18 @@
-plantName_key,password,nFilters,pH,acidDosingChemical
-Atima,eriugdf,0,0,none
-Agalteca,bisuenr,0,0,none
-Ojojona,xiuhreg,0,0,none
-CuatroComunidades,34ogjoj,0,0,none
-Matias,3iu4hvu,1,0,none
-Tamara,dsighoi,1,0,none
-SanNicolas,sdkfbvo,2,0,none
-Otoro,ozvowes,2,0,none
-Alauca,aphdsos,2,0,none
-Marcala,ordisgf,2,0,none
-Moroceli,dgsighg,2,0,none
-LasVegas,voeroij,4,1,HCl
-SanJuanGuarita,3QeJ7RZZ,2,0,none
-test,test,3,0,caustic soda
+plant,password,nFilters,pH,acidDosingChemical,operatingGroup
+Atima,qxH9EX,0,0,none,Atima
+Agalteca,Z6d9UX,0,0,none,Agalteca
+Ojojona,3JT2p2,0,0,none,Ojojona
+CuatroComunidades,a2JD66,0,0,none,CuatroComunidades
+Matias,Kd6xxV,1,0,none,Matias
+Tamara,2EsLm8,1,0,none,Tamara
+SanNicolas,ZDZj4t,2,0,none,SanNicolas
+Otoro,Y962zP,2,0,none,Otoro
+Alauca,tE9Esh,2,0,none,Alauca
+Marcala,ABhw4V,2,0,none,Marcala
+Moroceli,N5hTHm,2,0,none,Moroceli
+LasVegas,A3mUJp,4,1,HCl,LasVegas
+Gracias,wt22u2t,6,0,none,Gracias
+Ocotal,khp3pcw,3,0,none,Ocotal
+Zamorano,w96qd4y,2,0,none,Zamorano
+SanJuanGuarita,x68zmxw,2,0,none,SanJuanGuarita
+test,test,3,0,caustic soda,test
