@@ -182,6 +182,9 @@
           <text id="/COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3/no:label">
             <value>No</value>
           </text>
+          <text id="/COLLECT-13-3-2017/parameters/purpose:hint">
+            <value>-</value>
+          </text>
           <text id="/COLLECT-13-3-2017/plantData/doses/coagulantCheck:label">
             <value>valor de DOSIS DE COAGULANTES que ha entrado cae fuera del rango esperado (0.0-50.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
           </text>
@@ -730,6 +733,9 @@
           <text id="/COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3/no:label">
             <value>No</value>
           </text>
+          <text id="/COLLECT-13-3-2017/parameters/purpose:hint">
+            <value>Make sure the data you are entering is currently collected</value>
+          </text>
           <text id="/COLLECT-13-3-2017/plantData/doses/coagulantCheck:label">
             <value>The COAGULENT dose you have entered is outside the expected range (0.0-50.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
           </text>
@@ -1102,7 +1108,7 @@
         </translation>
       </itext>
       <instance>
-        <COLLECT-13-3-2017 id="COLLECT-13-3-2017" version="2018032006">
+        <COLLECT-13-3-2017 id="COLLECT-13-3-2017" version="2018041510">
           <metadata>
             <collectionMethod/>
             <phoneNumber/>
@@ -1258,7 +1264,7 @@
       <bind calculate="number(pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-13-3-2017/parameters/plant ))" nodeset="/COLLECT-13-3-2017/parameters/needspH" type="string"/>
       <bind calculate="pulldata('plantParameters', 'pH', 'plantName_key',  /COLLECT-13-3-2017/parameters/plant )" nodeset="/COLLECT-13-3-2017/parameters/acidDosingChemical" type="string"/>
       <bind nodeset="/COLLECT-13-3-2017/plantData" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'plantData')"/>
-      <bind nodeset="/COLLECT-13-3-2017/plantData/timeCollected" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/plantData/timeCollected" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind nodeset="/COLLECT-13-3-2017/plantData/flowRate" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/plantData/CDCPos" required="true()" type="int"/>
       <bind nodeset="/COLLECT-13-3-2017/plantData/rawWaterTurbidity" required="true()" type="decimal"/>
@@ -1309,42 +1315,42 @@
       <bind nodeset="/COLLECT-13-3-2017/backwashes" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'backwash') or selected( /COLLECT-13-3-2017/plantData/backwashed , 'yes')"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash1" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 0"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash1/backwashCheck1" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash1/backwashTime1" relevant=" /COLLECT-13-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash1/backwashTime1" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash1/backwashDuration1:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash1/backwashDuration1" relevant=" /COLLECT-13-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1" relevant=" /COLLECT-13-3-2017/backwashes/backwash1/backwashCheck1  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash2" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 1"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash2/backwashCheck2" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash2/backwashTime2" relevant=" /COLLECT-13-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash2/backwashTime2" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash2/backwashDuration2:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash2/backwashDuration2" relevant=" /COLLECT-13-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash2/entranceWaterLevelAfterBackwash2" relevant=" /COLLECT-13-3-2017/backwashes/backwash2/backwashCheck2  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash3" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 2"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash3/backwashTime3" relevant=" /COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash3/backwashTime3" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash3/backwashDuration3:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash3/backwashDuration3" relevant=" /COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash3/entranceWaterLevelAfterBackwash3" relevant=" /COLLECT-13-3-2017/backwashes/backwash3/backwashCheck3  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash4" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 3"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash4/backwashCheck4" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash4/backwashTime4" relevant=" /COLLECT-13-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash4/backwashTime4" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash4/backwashDuration4:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash4/backwashDuration4" relevant=" /COLLECT-13-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash4/entranceWaterLevelAfterBackwash4" relevant=" /COLLECT-13-3-2017/backwashes/backwash4/backwashCheck4  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash5" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 4"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash5/backwashCheck5" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash5/backwashTime5" relevant=" /COLLECT-13-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash5/backwashTime5" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash5/backwashDuration5:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash5/backwashDuration5" relevant=" /COLLECT-13-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash5/entranceWaterLevelAfterBackwash5" relevant=" /COLLECT-13-3-2017/backwashes/backwash5/backwashCheck5  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash6" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 5"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash6/backwashCheck6" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash6/backwashTime6" relevant=" /COLLECT-13-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash6/backwashTime6" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash6/backwashDuration6:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash6/backwashDuration6" relevant=" /COLLECT-13-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash6/entranceWaterLevelAfterBackwash6" relevant=" /COLLECT-13-3-2017/backwashes/backwash6/backwashCheck6  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash7" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 6"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash7/backwashCheck7" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash7/backwashTime7" relevant=" /COLLECT-13-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash7/backwashTime7" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash7/backwashDuration7:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash7/backwashDuration7" relevant=" /COLLECT-13-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash7/entranceWaterLevelAfterBackwash7" relevant=" /COLLECT-13-3-2017/backwashes/backwash7/backwashCheck7  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash8" relevant=" /COLLECT-13-3-2017/parameters/nFilters  &gt; 7"/>
       <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash8/backwashCheck8" required="true()" type="select1"/>
-      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash8/backwashTime8" relevant=" /COLLECT-13-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="dateTime"/>
+      <bind nodeset="/COLLECT-13-3-2017/backwashes/backwash8/backwashTime8" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'nothing')" required="true()" type="dateTime"/>
       <bind constraint=". &lt;=60 and .&gt;=5" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash8/backwashDuration8:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash8/backwashDuration8" relevant=" /COLLECT-13-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="decimal"/>
       <bind constraint=". &lt;=130 and .&gt;=0" jr:constraintMsg="jr:itext('/COLLECT-13-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8:jr:constraintMsg')" nodeset="/COLLECT-13-3-2017/backwashes/backwash8/entranceWaterLevelAfterBackwash8" relevant=" /COLLECT-13-3-2017/backwashes/backwash8/backwashCheck8  = 'yes'" required="true()" type="decimal"/>
       <bind nodeset="/COLLECT-13-3-2017/stockConcentration" relevant="selected( /COLLECT-13-3-2017/parameters/purpose , 'stockConcentration') or selected( /COLLECT-13-3-2017/plantData/newStock , 'yes')"/>
@@ -1372,6 +1378,7 @@
     <group ref="/COLLECT-13-3-2017/parameters">
       <select ref="/COLLECT-13-3-2017/parameters/purpose">
         <label ref="jr:itext('/COLLECT-13-3-2017/parameters/purpose:label')"/>
+        <hint ref="jr:itext('/COLLECT-13-3-2017/parameters/purpose:hint')"/>
         <item>
           <label ref="jr:itext('/COLLECT-13-3-2017/parameters/purpose/plantData:label')"/>
           <value>plantData</value>
