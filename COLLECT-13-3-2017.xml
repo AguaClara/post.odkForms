@@ -62,8 +62,8 @@
           <text id="/COLLECT-13-3-2017/plantData/timeCollected:label">
             <value>¿Cuándo recogió los datos?</value>
           </text>
-          <text id="/COLLECT-13-3-2017/plantData/CDCPos:label">
-            <value>Posición del deslizador de coagulante en la balanza</value>
+          <text id="/COLLECT-13-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:label">
+            <value>Nivel de agua en la caja de entrada al filtro 1 despues retrolavado (cm)</value>
           </text>
           <text id="/COLLECT-13-3-2017/plantData/backwashed/yes:label">
             <value>Sí</value>
@@ -183,7 +183,7 @@
             <value>No</value>
           </text>
           <text id="/COLLECT-13-3-2017/parameters/purpose:hint">
-            <value>-</value>
+            <value>Asegúrese de que los datos que está entrando se están coleccionando actualmente</value>
           </text>
           <text id="/COLLECT-13-3-2017/plantData/doses/coagulantCheck:label">
             <value>valor de DOSIS DE COAGULANTES que ha entrado cae fuera del rango esperado (0.0-50.0). Por favor, VOLVER para cambiar el dato, o SELECCIONAR OK para guardarlo y seguir.</value>
@@ -359,8 +359,8 @@
           <text id="/COLLECT-13-3-2017/maintenanceTODO/ToDoDescription:label">
             <value>Qué mantenimiento hay que hacer?</value>
           </text>
-          <text id="/COLLECT-13-3-2017/backwashes/backwash1/entranceWaterLevelAfterBackwash1:label">
-            <value>Nivel de agua en la caja de entrada al filtro 1 despues retrolavado (cm)</value>
+          <text id="/COLLECT-13-3-2017/plantData/CDCPos:label">
+            <value>Posición del deslizador de coagulante en la balanza</value>
           </text>
           <text id="/COLLECT-13-3-2017/backwashes/backwash8/backwashCheck8/yes:label">
             <value>Sí</value>
@@ -734,7 +734,7 @@
             <value>No</value>
           </text>
           <text id="/COLLECT-13-3-2017/parameters/purpose:hint">
-            <value>Make sure the data you are entering is currently collected</value>
+            <value>Make sure the data you are entering is being currently collected</value>
           </text>
           <text id="/COLLECT-13-3-2017/plantData/doses/coagulantCheck:label">
             <value>The COAGULENT dose you have entered is outside the expected range (0.0-50.0). Please GO BACK to change your entry, or SELECT OK to save and continue.</value>
@@ -1108,7 +1108,7 @@
         </translation>
       </itext>
       <instance>
-        <COLLECT-13-3-2017 id="COLLECT-13-3-2017" version="2018041510">
+        <COLLECT-13-3-2017 id="COLLECT-13-3-2017" version="2018042212">
           <metadata>
             <collectionMethod/>
             <phoneNumber/>
